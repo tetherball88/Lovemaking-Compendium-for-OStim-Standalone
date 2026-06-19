@@ -1,0 +1,81 @@
+{
+	"name": "Lovemaking: Squatting Post-Blowjob Licking",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCSquattingBlowjobAfterLick",
+			"playbackSpeed": 0.75,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCSquattingBlowjobAfterLick",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCSquattingBlowjobAfterLick",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCSquattingBlowjobAfterLick",
+			"playbackSpeed": 1.50,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCSquatting",
+			"description": "Go back",
+			"icon": "OStim/positional/squatting_f",
+			"priority": -999
+		},
+		{
+			"destination": "MLCSquattingBlowjob2",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"oral"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 90,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "lickingpenis",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "femalemasturbation",
+			"actor": 1
+		}
+    ]
+}

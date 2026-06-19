@@ -1,0 +1,8 @@
+		<hkobject name="#mlc$3545" class="hkbModifierGenerator" signature="0x1f81fae6">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">LovemakingCompendium_Modifier3548</hkparam>
+			<hkparam name="modifier">#mlc$3548</hkparam>
+			<hkparam name="generator">#mlc$3546</hkparam>
+		</hkobject>
+

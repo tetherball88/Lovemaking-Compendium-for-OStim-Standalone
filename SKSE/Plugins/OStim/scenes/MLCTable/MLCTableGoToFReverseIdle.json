@@ -1,0 +1,42 @@
+{
+	"name": "Lovemaking: Table Go to F Facing Away Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.1777,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToFReverseIdle"
+		}
+	],
+	"origin": "OStimTable2PStandingLeaningMF",
+	"description": "Turn around",
+	"icon": "MLC/mlc",
+	"border": "5dade2",
+	"priority": 2006,
+	"destination": "MLCTableFReverseIdle",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -25,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[]
+}

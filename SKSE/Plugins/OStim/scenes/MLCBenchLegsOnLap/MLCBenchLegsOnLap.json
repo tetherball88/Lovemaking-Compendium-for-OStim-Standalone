@@ -1,0 +1,58 @@
+{
+	"name": "Lovemaking: Bench Legs On Lap Idle",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "bench",
+	"speeds":[
+		{
+			"animation": "MLCBenchLegsOnLap"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBenchGoToLegsOnLapNeck",
+			"description": "Kiss {1}'s neck",
+			"icon": "OStim/sensual/kissingneck_behind_mf",
+			"border": "ffafe0",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBenchGoToLegsOnLapRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 5,
+			"scale": 1.03,
+			"lookUp": 50,
+            "lookLeft": 30, 
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -50,
+            "lookLeft": -30, 
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

@@ -1,0 +1,80 @@
+{
+	"name": "Lovemaking: Table Lying Sideways Handjob + Fingering",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableOnTableHJ2",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCTableOnTableHJ2",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCTableOnTableHJ2",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCTableOnTableHJ2",
+			"playbackSpeed": 1.8,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCTableGoToOnTableHJ3",
+			"description": "Kiss {1}",
+			"icon": "OStim/sensual/kissing_holdingchin_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCTableGoToOnTableHJ2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+            "lookLeft": 60,
+			"lookUp":-40,			
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": 70,
+			"lookUp":10,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "vaginalfingering",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

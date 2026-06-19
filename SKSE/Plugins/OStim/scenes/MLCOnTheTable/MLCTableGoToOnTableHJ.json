@@ -1,0 +1,39 @@
+{
+	"name": "Lovemaking: Table Go to Lying Sideways Handjob",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.666,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToOnTableHJ"
+		}
+	],
+	"destination": "MLCTableOnTableHJ",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookLeft": 20,
+			"lookUp":-80,	
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": 40,
+			"lookUp":-50,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[]
+}

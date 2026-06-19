@@ -1,0 +1,54 @@
+{
+	"name": "Lovemaking: Straddling",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCStraddling"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCStraddlingKiss",
+			"description": "Kiss",
+			"icon": "OStim/sensual/kissing_mf",
+			"border": "ffafe0",
+			"priority": 1000
+		},
+		{
+			"destination": "MLCGoToStraddlingRide",
+			"description": "Ride",
+			"icon": "OStim/sexual/vaginalsex_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCStandingEmbrace",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"suspended"
+			],
+			"feetOnGround": false
+		}
+	]
+}

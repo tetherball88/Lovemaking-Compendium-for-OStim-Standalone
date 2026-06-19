@@ -1,0 +1,36 @@
+{
+	"name": "Lovemaking: Shelf Go To Kneeling Boobjob",
+	"modpack": "Lovemaking Compendium",
+	"length": 1.166,
+	"furniture": "shelf",
+	"speeds":[
+		{
+			"animation": "MLCShelfGoToKneelingBoobjobRev"
+		}
+	],
+	"destination": "MLCShelfKneelingIdle",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	]
+}

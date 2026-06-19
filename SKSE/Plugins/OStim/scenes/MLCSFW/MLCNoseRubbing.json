@@ -1,0 +1,49 @@
+{
+	"name": "Lovemaking: Cuddling with Nose Rubbing",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCNoseRubbing"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToNoseRubbingRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -10,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

@@ -1,0 +1,74 @@
+{
+	"name": "Lovemaking: Bed Sideways Dick Grinding 2",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedSideGrind2",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedSideGrind2",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedSideGrind2",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedSideGrind2",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCBedSideGrind2Alt",
+			"description": "{0} takes over",
+			"icon": "OStim/symbols/switch",
+			"border": "cb0375",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToSideGrind2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -30, 
+            "lookLeft": 50,			
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": -30,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "grindingpenis",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

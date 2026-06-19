@@ -1,0 +1,72 @@
+{
+	"name": "Lovemaking: Standing Embrace Kiss Sex 4",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCStandingEmbraceKissSex4",
+			"playbackSpeed": 0.75,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCStandingEmbraceKissSex4",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCStandingEmbraceKissSex4",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCStandingEmbraceKissSex4",
+			"playbackSpeed": 1.50,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCStandingEmbraceKiss",
+			"description": "Go back to kiss",
+			"icon": "OStim/sensual/kissing_mf",
+			"priority": -999
+		},
+		{
+			"destination": "MLCStandingEmbraceKissSex3",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "kissing",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

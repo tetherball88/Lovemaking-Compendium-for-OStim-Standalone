@@ -1,0 +1,35 @@
+{
+	"name": "Lovemaking: Table Go to Sitting Missionary",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.166,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToFSittingMiss"
+		}
+	],
+	"destination": "MLCTableFSittingMiss",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "Lovemaking: Go to Cuddling with Nose Rubbing Reverse",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.666,
+	"speeds":[
+		{
+			"animation": "MLCGoToNoseRubbingRev",
+			"playbackSpeed": 1.0
+		}
+	],
+	"destination": "MLCStandingEmbrace",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 30,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

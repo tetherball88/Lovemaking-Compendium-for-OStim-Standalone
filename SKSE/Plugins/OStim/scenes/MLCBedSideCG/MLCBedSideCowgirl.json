@@ -1,0 +1,68 @@
+{
+	"name": "Lovemaking: Bed Sideways Cowgirl",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedSideCowgirl",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedSideCowgirl",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedSideCowgirl",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedSideCowgirl",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedGoToSideCowgirlRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": 40, 
+            "lookLeft": 50,			
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": -30,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1,
+			"performer":1
+		}
+    ]
+}

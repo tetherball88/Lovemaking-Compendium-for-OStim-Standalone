@@ -1,0 +1,98 @@
+{
+	"name": "Lovemaking: Standing Embrace",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCStandingEmbrace"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCReverseEmbrace",
+			"description": "Turn around",
+			"icon": "OStim/sensual/embrace_behind_mf",
+			"border": "5dade2",
+			"priority": 0
+		},
+		{
+			"destination": "MLCGoToSquatting",
+			"description": "Go down",
+			"icon": "OStim/positional/squatting_f",
+			"border": "5dade2",
+			"priority": 1
+		},
+		{
+			"destination": "MLCGoToStraddling",
+			"description": "Lift {1} up",
+			"icon": "OStim/sexual/carryingsex_mf",
+			"border": "5dade2",
+			"priority": 2
+		},
+		{
+			"destination": "MLCGoToKneeling",
+			"description": "Kneel down",
+			"icon": "OStim/positional/kneeling_m",
+			"border": "5dade2",
+			"priority": 3
+		},
+		{
+			"destination": "MLCGoToNoseRubbing",
+			"description": "Cuddle and rub noses",
+			"icon": "OStim/sensual/approach_fm",
+			"border": "ffafe0",
+			"priority": 999
+		},
+		{
+			"destination": "MLCStandingEmbraceKiss",
+			"description": "Kiss",
+			"icon": "OStim/sensual/kissing_mf",
+			"border": "ffafe0",
+			"priority": 1000
+		},
+		{
+			"destination": "MLCGoToStandingEmbraceBite",
+			"description": "Vampire bite",
+			"icon": "OStim/sensual/vampirebite",
+			"border": "f06666",
+			"priority": 4500
+		},
+		{
+			"destination": "MLCGoToStandingEmbraceRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -10,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "holdinghead",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

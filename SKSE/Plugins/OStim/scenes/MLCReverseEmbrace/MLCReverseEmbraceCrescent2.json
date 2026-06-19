@@ -1,0 +1,75 @@
+{
+	"name": "Lovemaking: Reverse Embrace Grinding with Spank",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbraceCrescent2",
+			"playbackSpeed": 0.85,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCReverseEmbraceCrescent2",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCReverseEmbraceCrescent2",
+			"playbackSpeed": 1.15,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCReverseEmbraceCrescent2",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToReverseEmbraceCrescent3",
+			"description": "Wrap your arms around {1} and go at it",
+			"icon": "OStim/sexual/thighjob_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCGoToReverseEmbraceCrescent2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"sex"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -40,
+            "lookLeft": 10, 
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing",
+				"bendover"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1,
+			"performer": 1
+		}
+    ]
+}

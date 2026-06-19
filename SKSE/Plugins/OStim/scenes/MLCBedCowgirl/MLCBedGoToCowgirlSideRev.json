@@ -1,0 +1,47 @@
+{
+	"name": "Lovemaking: Bed Transition to Cowgirl Sideways Reverse",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.666,
+	"speeds":[
+		{
+			"animation": "MLCBedGoToCowgirlSideRev"
+		}
+	],
+	"destination": "MLCBedCowgirl2",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 6,
+			"scale": 1.0,
+			"lookUp": 0,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 0,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

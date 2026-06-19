@@ -1,0 +1,44 @@
+{
+	"name": "Lovemaking: Wall Go to Handjob 2 ",
+	"modpack": "Lovemaking Compendium",
+	"length": 1.75,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallGoToHandjob2"
+		}
+	],
+	"destination": "MLCWallHandjob2",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -30,
+			"lookLeft": 50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -80,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		}
+	]
+}

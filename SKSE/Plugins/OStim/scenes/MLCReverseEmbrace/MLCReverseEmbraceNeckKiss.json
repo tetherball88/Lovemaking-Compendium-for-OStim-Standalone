@@ -1,0 +1,65 @@
+{
+	"name": "Lovemaking: Reverse Embrace Neck Kiss",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbraceNeckKiss"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCReverseEmbraceNeckKiss2",
+			"description": "More",
+			"icon": "OStim/sensual/kissingneck_behind_mf",
+			"border": "ffafe0",
+			"priority": 1000
+		},
+		{
+			"destination": "MLCReverseEmbrace",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"kissing"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "kissingneck",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "holdinghead",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "holdinghead",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

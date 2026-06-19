@@ -1,0 +1,47 @@
+{
+	"name": "Lovemaking: Straddling Kiss 2",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCStraddlingKiss2"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCStraddlingKiss",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"kissing"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"suspended"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "kissing",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

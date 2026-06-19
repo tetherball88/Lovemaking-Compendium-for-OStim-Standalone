@@ -1,0 +1,73 @@
+{
+	"name": "Lovemaking: Standing Embrace Kiss Sex with Neck Kiss",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCStandingEmbraceKissSexNeck",
+			"playbackSpeed": 0.75,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCStandingEmbraceKissSexNeck",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCStandingEmbraceKissSexNeck",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCStandingEmbraceKissSexNeck",
+			"playbackSpeed": 1.50,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCStandingEmbraceKissSex2",
+			"description": "Keep going",
+			"icon": "OStim/sexual/vaginalsex_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCStandingEmbraceKissSex",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "kissingneck",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

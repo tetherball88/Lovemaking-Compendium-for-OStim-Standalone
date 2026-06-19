@@ -1,0 +1,80 @@
+{
+	"name": "Lovemaking: Bed Breast Thighjob",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedThighjob",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedThighjob",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedThighjob",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedThighjob",
+			"playbackSpeed": 1.7,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedGoToThighjob2",
+			"description": "Roll slightly to the side",
+			"icon": "OStim/positional/leanback_f",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToSideGrind",
+			"description": "{1} grinds against dick",
+			"icon": "OStim/sexual/grindingpenis_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToThighjobRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -50, 			
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": -10,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "thighjob",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

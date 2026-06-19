@@ -1,0 +1,63 @@
+{
+	"name": "Lovemaking: Bed Kneeling Lying Back",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedKneelingLyingBack"
+		}
+	],
+	"navigations":[
+	    {
+			"origin": "OStim2PLyingOnTopMF",
+			"description": "Stand on your knees",
+			"icon": "OStim/positional/kneeling_m_end",
+			"border": "ffafe0",
+			"priority": 1002
+		},
+		{
+			"destination": "MLCBedKneelingLyingBackFingering",
+			"description": "Rub {1}'s clitoris",
+			"icon": "OStim/sexual/vaginalfingering_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToLegsUpMissionary",
+			"description": "Bring {1} closer",
+			"icon": "OStim/positional/spreadlegs_f",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "OStim2PLyingOnTopMF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -20,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		}
+	]
+}

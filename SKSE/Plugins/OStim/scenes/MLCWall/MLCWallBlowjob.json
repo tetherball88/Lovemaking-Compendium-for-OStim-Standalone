@@ -1,0 +1,77 @@
+{
+	"name": "Lovemaking: Wall Blowjob",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallBlowjob",
+			"playbackSpeed": 1.00,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCWallBlowjob",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCWallBlowjob",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCWallBlowjob",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCWallGoToBlowjob2",
+			"description": "Suck {0}'s dick",
+			"icon": "OStim/sexual/blowjob_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCWallGoToBlowjobRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -60,
+			"lookLeft": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"lookUp": -70,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "lickingpenis",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "femalemasturbation",
+			"actor": 1
+		}
+    ]
+}

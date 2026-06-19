@@ -1,0 +1,65 @@
+{
+	"name": "Lovemaking: Table Sitting Penis Missionary",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableFSittingMiss",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCTableFSittingMiss",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCTableFSittingMiss",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCTableFSittingMiss",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCTableGoToFSittingMissRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"missionary"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,			
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

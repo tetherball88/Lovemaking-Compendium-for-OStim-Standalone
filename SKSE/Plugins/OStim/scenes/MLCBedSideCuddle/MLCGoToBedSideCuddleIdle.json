@@ -1,0 +1,42 @@
+{
+	"name": "Lovemaking: Bed Transition to Side Cuddle Idle",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.666,
+	"speeds":[
+		{
+			"animation": "MLCGoToBedSideCuddleIdle"
+		}
+	],
+	"origin": "OStim2PBothLyingMF",
+	"description": "Lie on the side and cuddle",
+	"icon": "OStim/sensual/spooning_mf",
+	"border": "5dade2",
+	"priority": 2991,
+	"destination": "MLCBedSideCuddleIdle",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -40,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+    ]
+}

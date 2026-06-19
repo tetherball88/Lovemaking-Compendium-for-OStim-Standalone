@@ -1,0 +1,83 @@
+{
+	"name": "Lovemaking: Bed Missionary Holding Thighs with Kiss",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedMissionaryHoldThigh2",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedMissionaryHoldThigh2",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedMissionaryHoldThigh2",
+			"playbackSpeed": 1.35,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedMissionaryHoldThigh2",
+			"playbackSpeed": 1.55,
+			"displaySpeed": 4.0
+		},
+		{
+			"animation": "MLCBedMissionaryHoldThigh2",
+			"playbackSpeed": 1.75,
+			"displaySpeed": 5.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCBedGoToMissionaryHoldClimax2",
+			"description": "Internal climax",
+			"icon": "OStim/symbols/meter_6_climax",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToMissionaryHoldThigh2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"missionary"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -20,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "kissing",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

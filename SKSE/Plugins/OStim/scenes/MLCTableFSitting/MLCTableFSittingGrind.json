@@ -1,0 +1,83 @@
+{
+	"name": "Lovemaking: Table Sitting Penis Grinding",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableFSittingGrind",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCTableFSittingGrind",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCTableFSittingGrind",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCTableFSittingGrind",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCTableGoToFSittingMiss",
+			"description": "Hug and have sex with {1}",
+			"icon": "OStim/sexual/carryingsex_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCTableGoToFSittingGrindRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 9,
+			"scale": 1.03,			
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "grindingpenis",
+			"actor": 1,
+			"target": 0,
+			"performer": 0
+		},
+		{
+			"type": "cumonchest",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "cumonvulva",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

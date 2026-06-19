@@ -1,0 +1,84 @@
+{
+	"name": "Lovemaking: Reverse Embrace Bend Over Sex",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbraceCrescent1",
+			"playbackSpeed": 0.85,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCReverseEmbraceCrescent1",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCReverseEmbraceCrescent1",
+			"playbackSpeed": 1.15,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCReverseEmbraceCrescent1",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToReverseEmbraceCrescent2",
+			"description": "Let {1} take over for a moment",
+			"icon": "OStim/sexual/analsex_mf_end",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCGoToReverseEmbraceLegUp1",
+			"description": "Lift {1}'s leg up",
+			"icon": "OStim/positional/raiseleg_f",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCGoToReverseEmbraceCrescent1Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"sex"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+            "lookLeft": 40, 			
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -50,
+            "lookLeft": -60,
+			"tags": [
+				"standing",
+				"bendover",
+				"facingaway"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

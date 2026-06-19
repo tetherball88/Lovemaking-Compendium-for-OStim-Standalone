@@ -1,0 +1,43 @@
+{
+	"name": "Lovemaking: Bed Transition to Side Cuddle Fingering 2 Reverse",
+	"modpack": "Lovemaking Compendium",
+	"length": 1.3,
+	"speeds":[
+		{
+			"animation": "MLCGoToBedSideCuddleFingering2Rev"
+		}
+	],
+	"destination": "MLCBedSideCuddleFingering",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -10,
+			"lookLeft": -60,
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "rubbingclitoris",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

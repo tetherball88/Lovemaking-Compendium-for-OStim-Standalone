@@ -1,0 +1,36 @@
+{
+	"name": "Lovemaking: Devour Go to Reverse Embrace Bite",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 5.666,
+	"speeds":[
+		{
+			"animation": "MLCGoToReverseEmbraceBite"
+		}
+	],
+	"destination": "MLCReverseEmbraceBite",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": 30,
+			"lookLeft": 30,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -80,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

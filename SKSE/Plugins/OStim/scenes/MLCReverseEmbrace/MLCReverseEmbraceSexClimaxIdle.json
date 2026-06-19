@@ -1,0 +1,48 @@
+{
+	"name": "Lovemaking: Reverse Embrace Sex Post-Climax Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbraceSexClimaxIdle"
+		}
+	],
+	"navigations":[
+		{
+		    "destination": "MLCReverseEmbrace",
+			"description": "Go back",
+			"icon": "OStim/sensual/embrace_behind_mf",
+			"priority": -999
+		},
+		{
+			"destination": "MLCReverseEmbraceSex6",
+			"description": "Another round",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing",
+				"bendover",
+				"facingaway"
+			],
+			"feetOnGround": true
+		}
+	]
+}

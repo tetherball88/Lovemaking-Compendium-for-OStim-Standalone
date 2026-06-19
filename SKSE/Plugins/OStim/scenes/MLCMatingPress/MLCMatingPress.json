@@ -1,0 +1,56 @@
+{
+	"name": "Lovemaking: Mating Press Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCMatingPress"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCMatingPressFingering",
+			"description": "Anal fingering",
+			"icon": "OStim/sexual/vaginalfingering_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCMatingPressAnal",
+			"description": "Mating press",
+			"icon": "OStim/sexual/matingpress_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCStandingLying",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"squatting"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 50,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		}
+	]
+}

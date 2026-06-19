@@ -1,0 +1,57 @@
+{
+	"name": "Lovemaking: Kneeling Spank Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCKneelingSpankIdle"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToKneelingSpankIdle2",
+			"description": "Bend more",
+			"icon": "OStim/positional/allfours_f",
+			"border": "5dade2",
+			"priority": 0
+		},
+		{
+			"destination": "MLCKneelingSpankLeft",
+			"description": "Spank",
+			"icon": "OStim/sexual/spank_m",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCKneeling",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -40,
+			"lookLeft": -90,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"name": "Lovemaking: Table Switch to Facing Away Doggystyle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 0.6666,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableFReverseDoggySwitch"
+		}
+	],
+	"destination": "MLCTableFReverseDoggy",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -35,
+			"lookLeft": 10,	
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -25,
+			"lookLeft": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "buttjob",
+			"actor": 1,
+			"target": 0,
+			"performer": 0
+		}
+		]
+}

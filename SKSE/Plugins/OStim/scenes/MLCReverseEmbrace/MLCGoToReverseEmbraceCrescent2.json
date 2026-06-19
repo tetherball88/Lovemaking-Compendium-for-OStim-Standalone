@@ -1,0 +1,45 @@
+{
+	"name": "Lovemaking: Go to RE Crescent 2",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 3.166,
+	"speeds":[
+		{
+			"animation": "MLCGoToReverseEmbraceCrescent2"
+		}
+	],
+	"destination": "MLCReverseEmbraceCrescent2",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+            "lookLeft": 40,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -50,
+            "lookLeft": -60,
+			"tags": [
+				"standing",
+				"bendover"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

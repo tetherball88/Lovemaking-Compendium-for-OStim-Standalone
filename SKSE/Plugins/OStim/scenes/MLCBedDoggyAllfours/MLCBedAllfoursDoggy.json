@@ -1,0 +1,88 @@
+{
+	"name": "Lovemaking: Bed Allfours Doggystyle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedAllfoursDoggy",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggy",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggy",
+			"playbackSpeed": 1.65,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggy",
+			"playbackSpeed": 1.9,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCBedAllfoursDoggyAlt",
+			"description": "{1} takes over",
+			"icon": "OStim/symbols/switch",
+			"border": "cb0375",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCGoToBedAllfoursDoggy2",
+			"description": "Go harder",
+			"icon": "OStim/sexual/doggystyle_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCGoToBedAllfoursDoggyFingering",
+			"description": "Stop and finger {1}",
+			"icon": "OStim/sexual/fingering_m",
+			"border": "b969ed",
+			"priority": 3002
+		},
+		{
+			"destination": "MLCGoToBedAllfoursDoggyRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+            "lookLeft": -10,			
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": -80,
+			"tags": [
+				"allfours"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

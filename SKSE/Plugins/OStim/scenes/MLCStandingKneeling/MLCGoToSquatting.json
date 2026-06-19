@@ -1,0 +1,35 @@
+{
+	"name": "Lovemaking: Go to Squatting",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.166,
+	"speeds":[
+		{
+			"animation": "MLCGoToSquatting"
+		}
+	],
+	"destination": "MLCSquatting",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

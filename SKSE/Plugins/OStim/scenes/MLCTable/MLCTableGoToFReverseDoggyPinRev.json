@@ -1,0 +1,45 @@
+{
+	"name": "Lovemaking: Table Go to Facing Away Bent Doggystyle Reverse",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.9,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToFReverseDoggyPinRev"
+		}
+	],
+	"destination": "MLCTableFReverseDoggy",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -35,
+			"lookLeft": 10,	
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -25,
+			"lookLeft": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+		]
+}

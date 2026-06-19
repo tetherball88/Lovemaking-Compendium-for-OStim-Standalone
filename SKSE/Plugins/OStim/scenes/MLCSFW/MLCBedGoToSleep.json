@@ -1,0 +1,42 @@
+{
+	"name": "Lovemaking: Bed Transition to Sleeping",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 4.166,
+	"speeds":[
+		{
+			"animation": "MLCBedGoToSleep"
+		}
+	],
+	"origin": "OStim2PBothLyingMF",
+	"description": "Go to sleep",
+	"icon": "OStim/symbols/sleeping",
+	"border": "5dade2",
+	"priority": 4001,
+	"destination": "MLCBedSleep",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 6,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -40,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+    ]
+}

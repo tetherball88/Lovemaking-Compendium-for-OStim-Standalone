@@ -1,0 +1,86 @@
+{
+	"name": "Lovemaking: Reverse Thighjob 2",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseThighjob2",
+			"playbackSpeed": 1.1,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCReverseThighjob2",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCReverseThighjob2",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCReverseThighjob2",
+			"playbackSpeed": 1.7,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToReverseThighjob3",
+			"description": "Grab both {1}'s breasts and let her take over",
+			"icon": "OStim/detail/gropingbreast_behind_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCGoToReverseThighjob2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -50,
+            "lookLeft": 40, 			
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -50,
+            "lookLeft": -60,
+			"tags": [
+				"standing",
+				"facingaway"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "thighjob",
+			"actor": 1,
+			"target": 0,
+			"performer": 0
+		},
+		{
+			"type": "rubbingclitoris",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "gropingbreast",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

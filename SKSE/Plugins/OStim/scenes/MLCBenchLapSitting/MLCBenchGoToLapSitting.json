@@ -1,0 +1,41 @@
+{
+	"name": "Lovemaking: Bench Go To Lap Sitting Handjob",
+	"modpack": "Lovemaking Compendium",
+	"length": 3.166,
+	"furniture": "bench",
+	"speeds":[
+		{
+			"animation": "MLCBenchGoToLapSitting"
+		}
+	],
+	"destination": "MLCBenchLapSitting",
+	"origin": "OStimChair2PSittingStandingMF",
+	"description": "Sit on the {0}'s lap and give a handjob",
+	"icon": "OStim/positional/chair/sitting_f",
+	"border": "b969ed",
+	"priority": 3005,
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 9,
+			"scale": 1.03,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	]
+}

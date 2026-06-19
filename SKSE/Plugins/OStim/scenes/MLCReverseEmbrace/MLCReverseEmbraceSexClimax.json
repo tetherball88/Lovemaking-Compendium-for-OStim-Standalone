@@ -1,0 +1,37 @@
+{
+	"name": "Lovemaking: Reverse Embrace Sex Climax",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 5.666,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbraceSexClimax"
+		}
+	],
+	"destination": "MLCReverseEmbraceSexClimaxIdle",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -25,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 50,
+			"tags": [
+				"standing",
+				"bendover",
+				"facingaway"
+			],
+			"feetOnGround": true
+		}
+	]
+}

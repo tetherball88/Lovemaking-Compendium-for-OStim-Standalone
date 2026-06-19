@@ -1,0 +1,80 @@
+{
+	"name": "Lovemaking: Bed Sideways Dick Grinding",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedSideGrind",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedSideGrind",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedSideGrind",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedSideGrind",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedGoToSideGrind2",
+			"description": "{1} leans closer",
+			"icon": "OStim/sensual/approach_fm",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToSideCowgirl",
+			"description": "{1} riding dick",
+			"icon": "OStim/sexual/reversecowgirl_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCBedGoToSideGrindRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -50, 			
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": -10,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "grindingpenis",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

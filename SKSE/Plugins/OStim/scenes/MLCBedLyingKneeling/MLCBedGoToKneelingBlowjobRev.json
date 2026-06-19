@@ -1,0 +1,42 @@
+{
+	"name": "Lovemaking: Bed Transition to Kneeling Blowjob Reverse",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.166,
+	"speeds":[
+		{
+			"animation": "MLCBedGoToKneelingBlowjobRev"
+		}
+	],
+	"destination": "MLCBedKneelingHandjob",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -40,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

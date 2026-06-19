@@ -1,0 +1,63 @@
+{
+	"name": "Lovemaking: Table Sitting Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableFSitting"
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCTableGoToOnTableIdle",
+			"description": "Lie sideways on the table",
+			"icon": "OStim/positional/lyingside_f",
+			"border": "5dade2",
+			"priority": 1000
+		},
+		{
+			"destination": "MLCTableGoToFSittingCunnilingus",
+			"description": "Eat {1} out",
+			"icon": "OStim/sexual/cunnilingus_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCTableGoToFSittingGrind",
+			"description": "Rub your penis against {1}",
+			"icon": "OStim/sexual/vaginalsex_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCTableGoToFSittingRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,			
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[]
+}

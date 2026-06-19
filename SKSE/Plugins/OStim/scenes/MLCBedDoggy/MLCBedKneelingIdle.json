@@ -1,0 +1,64 @@
+{
+	"name": "Lovemaking: Bed Kneeling Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedKneelingIdle"
+		}
+	],
+	"navigations":[
+		{
+			"origin": "OStim2PBothLyingMF",
+	        "description": "Kneeling embrace",
+	        "icon": "OStim/sexual/reverselotus_mf",
+	        "border": "b969ed",
+	        "priority": 3002
+		},
+		{
+			"destination": "MLCGoToBedKneelingDoggyIntro",
+			"description": "Finger {1} and fondle her breast while she's rubbing against the dick",
+			"icon": "OStim/detail/gropingbreast_behind_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "OStim2PBothLyingMF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -20,
+			"lookLeft": -50, 			
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -50,
+			"lookLeft": 60,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

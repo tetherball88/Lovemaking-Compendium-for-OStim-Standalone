@@ -1,0 +1,47 @@
+{
+	"name": "Lovemaking: Kneeling Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCKneeling"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToKneelingSpankIdle",
+			"description": "Bend",
+			"icon": "OStim/positional/bendover_f",
+			"border": "5dade2",
+			"priority": 0
+		},
+		{
+			"destination": "MLCStandingEmbrace",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	]
+}

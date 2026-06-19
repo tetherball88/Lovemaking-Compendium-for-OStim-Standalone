@@ -1,0 +1,73 @@
+{
+	"name": "Lovemaking: Wall Blowjob 3",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallBlowjob3",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCWallBlowjob3",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCWallBlowjob3",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCWallBlowjob3",
+			"playbackSpeed": 1.9,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCWallBlowjobClimax",
+			"description": "Climax",
+			"icon": "OStim/symbols/meter_6_climax",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCWallGoToBlowjob3Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -60,
+			"lookLeft": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"lookUp": -70,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "blowjob",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

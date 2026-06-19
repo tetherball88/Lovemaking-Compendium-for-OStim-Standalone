@@ -1,0 +1,75 @@
+{
+	"name": "Lovemaking: Table Facing Away Bent Doggystyle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableFReverseDoggyPin",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCTableFReverseDoggyPin",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCTableFReverseDoggyPin",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCTableFReverseDoggyPin",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCTableGoToFReverseDoggyPinRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		},
+		{
+			"destination": "MLCTableGoToFReverseDoggyPinSp",
+			"description": "Spank {1}",
+			"icon": "OStim/sexual/spank_right_mf",
+			"border": "b969ed",
+			"priority": 3000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+            "lookUp": -35,
+			"lookLeft": 10,				
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -25,
+			"lookLeft": -50,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

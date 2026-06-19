@@ -1,0 +1,45 @@
+{
+	"name": "Lovemaking: Wall Go to Blowjob Reverse",
+	"modpack": "Lovemaking Compendium",
+	"length": 1.75,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallGoToBlowjobRev"
+		}
+	],
+	"destination": "MLCWallHandjob",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -30,
+			"lookLeft": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -20,
+			"lookUp": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		}
+	]
+}

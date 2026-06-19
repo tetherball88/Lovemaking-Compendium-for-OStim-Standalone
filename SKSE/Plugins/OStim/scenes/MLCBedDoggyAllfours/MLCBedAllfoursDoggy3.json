@@ -1,0 +1,72 @@
+{
+	"name": "Lovemaking: Bed Allfours Doggystyle 3",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedAllfoursDoggy3",
+			"playbackSpeed": 1.1,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggy3",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggy3",
+			"playbackSpeed": 1.7,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggy3",
+			"playbackSpeed": 1.9,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToBedAllfoursDoggy3Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+            "lookLeft": -10,			
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -20,
+			"lookLeft": 20,
+			"tags": [
+				"allfours"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "pullinghair",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

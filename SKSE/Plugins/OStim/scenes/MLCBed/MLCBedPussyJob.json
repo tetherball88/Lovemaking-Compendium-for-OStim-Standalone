@@ -1,0 +1,94 @@
+{
+	"name": "Lovemaking: Bed Penis Grinding",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedPussyJob",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedPussyJob",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedPussyJob",
+			"playbackSpeed": 1.65,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedPussyJob",
+			"playbackSpeed": 2.0,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedGoToPussyJob2",
+			"description": "Help {1} out",
+			"icon": "OStim/sexual/cowgirl_holdinghips_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCBedGoToCowgirl",
+			"description": "Cowgirl",
+			"icon": "OStim/sexual/cowgirl_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCBedGoToPussyJobRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -10,		
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -50,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "grindingpenis",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "breastsmothering",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "cumonbutt",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

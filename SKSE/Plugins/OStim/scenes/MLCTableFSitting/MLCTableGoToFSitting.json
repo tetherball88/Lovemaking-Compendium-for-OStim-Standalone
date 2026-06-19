@@ -1,0 +1,40 @@
+{
+	"name": "Lovemaking: Table Go to F Sitting Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.666,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToFSitting"
+		}
+	],
+	"origin": "OStimTable2PStandingLeaningMF",
+	"description": "Come closer",
+	"icon": "MLC/mlc",
+	"border": "5dade2",
+	"priority": 2005,
+	"destination": "MLCTableFSitting",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[]
+}

@@ -1,0 +1,41 @@
+{
+	"name": "Lovemaking: Go to Standing Embrace",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.166,
+	"speeds":[
+		{
+			"animation": "MLCGoToStandingEmbrace",
+			"playbackSpeed": 1.0
+		}
+	],
+	"destination": "MLCStandingEmbrace",
+	"origin": "OStim2PStandingApartMF",
+	"description": "Come closer",
+	"icon": "MLC/mlc",
+	"border": "5dade2",
+	"priority": 1000,
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 30,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

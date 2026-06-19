@@ -1,0 +1,46 @@
+{
+	"name": "Lovemaking: Bench Go To Reverse Cowgirl Reverse",
+	"modpack": "Lovemaking Compendium",
+	"length": 3.666,
+	"furniture": "bench",
+	"speeds":[
+		{
+			"animation": "MLCBenchGoToLapSittingRevCowgirlRev"
+		}
+	],
+	"destination": "MLCBenchLapSitting",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 9,
+			"scale": 1.03,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	{
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		}
+	]
+}

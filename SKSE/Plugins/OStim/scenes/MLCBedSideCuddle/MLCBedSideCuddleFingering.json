@@ -1,0 +1,101 @@
+{
+	"name": "Lovemaking: Bed Side Cuddle Fingering",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedSideCuddleFingering",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedSideCuddleFingering",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedSideCuddleFingering",
+			"playbackSpeed": 1.8,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedSideCuddleFingering",
+			"playbackSpeed": 2.0,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCGoToBedSideCuddleFingering2",
+			"description": "Finger {1}",
+			"icon": "OStim/sexual/fingering_m",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCGoToBedSideCuddleSpooning",
+			"description": "Spooning sex",
+			"icon": "OStim/sexual/sideways_behind_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCGoToBedSideCuddleFingeringRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	    "idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"lookUp": -50, 			
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 80,
+			"lookLeft": -20,
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "rubbingclitoris",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "holdinghand",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "holdingthigh",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "cuddling",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "kissingneck",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

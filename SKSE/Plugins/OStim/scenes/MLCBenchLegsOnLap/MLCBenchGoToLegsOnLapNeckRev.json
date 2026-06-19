@@ -1,0 +1,41 @@
+{
+	"name": "Lovemaking: Bench Go To Legs On Lap Neck Kiss Reverse",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.666,
+	"furniture": "bench",
+	"speeds":[
+		{
+			"animation": "MLCBenchGoToLegsOnLapNeckRev"
+		}
+	],
+	"destination": "MLCBenchLegsOnLap",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 5,
+			"scale": 1.03,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "holdingbody",
+			"actor": 0,
+			"target": 1
+		}
+	]
+}

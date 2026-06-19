@@ -1,0 +1,35 @@
+{
+	"name": "Lovemaking: Bed Go to Missionary",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.666,
+	"speeds":[
+		{
+			"animation": "MLCBedGoToLegsUpMissionary"
+		}
+	],
+	"destination": "MLCBedLegsUpMissionaryKiss",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -10,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		}
+	]
+}

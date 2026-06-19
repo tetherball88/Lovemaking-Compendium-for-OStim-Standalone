@@ -1,0 +1,72 @@
+{
+	"name": "Lovemaking: Bed Breast Thighjob 3",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedThighjob3",
+			"playbackSpeed": 1.1,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedThighjob3",
+			"playbackSpeed": 1.3,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedThighjob3",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedThighjob3",
+			"playbackSpeed": 1.8,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedGoToThighjob3Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -60, 			
+			"tags": [
+				"lyingside"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": -30,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "thighjob",
+			"actor": 1,
+			"target": 0,
+			"performer": 0
+		},
+		{
+			"type": "gropingbreast",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

@@ -1,0 +1,63 @@
+{
+	"name": "Lovemaking: Shelf Kneeling Idle",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "shelf",
+	"speeds":[
+		{
+			"animation": "MLCShelfKneelingIdle"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCShelfGoToKneelingBoobjob",
+			"description": "Give {0} a boobjob",
+			"icon": "OStim/sexual/boobjob_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "OStimShelf2PBehindMF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		},
+		{
+			"origin": "OStimShelf2PBehindMF",
+			"description": "Kneel down",
+			"icon": "OStim/positional/kneeling_f",
+			"border": "b969ed",
+			"priority": 1005
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -30, 
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "holdingthigh",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

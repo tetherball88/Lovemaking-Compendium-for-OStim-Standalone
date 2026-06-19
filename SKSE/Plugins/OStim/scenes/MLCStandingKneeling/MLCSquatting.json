@@ -1,0 +1,71 @@
+{
+	"name": "Lovemaking: Squatting",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCSquatting"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToStandingLying",
+			"description": "Lie on the back",
+			"icon": "OStim/positional/lyingback_f",
+			"border": "5dade2",
+			"priority": 0
+		},
+		{
+			"destination": "MLCGoToSquattingHandjob",
+			"description": "Give {0} a handjob",
+			"icon": "OStim/sexual/handjob_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCSquattingBlowjob",
+			"description": "Give {0} a blowjob",
+			"icon": "OStim/sexual/blowjob_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCGoToSquattingRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 70,
+			"lookLeft": 20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "holdinghead",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

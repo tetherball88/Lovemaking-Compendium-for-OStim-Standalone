@@ -1,0 +1,42 @@
+{
+	"name": "Lovemaking: Go to Squatting Handjob 2",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.666,
+	"speeds":[
+		{
+			"animation": "MLCGoToSquattingHandjob2"
+		}
+	],
+	"destination": "MLCSquattingHandjob2",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 50,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

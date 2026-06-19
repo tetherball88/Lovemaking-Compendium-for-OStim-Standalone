@@ -1,0 +1,68 @@
+{
+	"name": "Lovemaking: Wall Blowjob Post Climax Idle",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallBlowjobClimaxIdle",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCWallBlowjobClimaxIdle",
+			"playbackSpeed": 1.1,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCWallBlowjobClimaxIdle",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCWallBlowjobClimaxIdle",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+	    {
+			"destination": "MLCWallBlowjobClimaxRev",
+			"description": "Another round",
+			"icon": "OStim/sexual/blowjob_mf",
+			"border": "b969ed",
+			"priority": 3001
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -60,
+			"lookLeft": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"lookUp": 80,
+			"lookLeft": 20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "rubbingpenisagainstface",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

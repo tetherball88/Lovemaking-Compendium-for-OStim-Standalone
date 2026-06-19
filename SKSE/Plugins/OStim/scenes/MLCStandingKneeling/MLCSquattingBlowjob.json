@@ -1,0 +1,82 @@
+{
+	"name": "Lovemaking: Squatting Blowjob",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCSquattingBlowjob",
+			"playbackSpeed": 0.75,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCSquattingBlowjob",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCSquattingBlowjob",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCSquattingBlowjob",
+			"playbackSpeed": 1.50,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCSquattingBlowjobClimaxEx",
+			"description": "External climax",
+			"icon": "OStim/symbols/climax",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCSquattingBlowjob2",
+			"description": "Rub",
+			"icon": "OStim/sexual/femalemasturbation",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCSquatting",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"oral"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"standing"
+			],
+			"autoTransitions":{
+				"climax": "MLCSquattingBlowjobClimaxEx"
+			},
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "blowjob",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

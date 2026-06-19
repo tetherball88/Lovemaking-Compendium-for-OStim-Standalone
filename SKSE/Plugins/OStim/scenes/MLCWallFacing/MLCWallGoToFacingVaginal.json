@@ -1,0 +1,40 @@
+{
+	"name": "Lovemaking: Wall Go to Facing Vaginal",
+	"modpack": "Lovemaking Compendium",
+	"length": 1.166,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallGoToFacingVaginal"
+		}
+	],
+	"destination": "MLCWallFacingVaginal",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -30,
+			"lookLeft": 50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": 30,
+			"lookUp": 30,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"name": "Lovemaking: Bed Mating Press 2",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCMissMatingPress2",
+			"playbackSpeed": 1.1,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCMissMatingPress2",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCMissMatingPress2",
+			"playbackSpeed": 1.45,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCMissMatingPress2",
+			"playbackSpeed": 1.65,
+			"displaySpeed": 4.0
+		},
+		{
+			"animation": "MLCMissMatingPress2",
+			"playbackSpeed": 1.85,
+			"displaySpeed": 5.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToMissMatingPress3",
+			"description": "Stage 3",
+			"icon": "OStim/symbols/meter_4",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCGoToMissMatingPress2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"matingpress"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -20,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

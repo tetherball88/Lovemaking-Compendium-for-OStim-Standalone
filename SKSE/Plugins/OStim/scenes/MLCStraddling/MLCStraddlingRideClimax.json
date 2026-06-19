@@ -1,0 +1,33 @@
+{
+	"name": "Lovemaking: Straddling Cowgil Climax",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 4.666,
+	"speeds":[
+		{
+			"animation": "MLCStraddlingRideClimax"
+		}
+	],
+	"destination": "MLCStraddlingRideLick",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"suspended"
+			],
+			"feetOnGround": false
+		}
+	]
+}

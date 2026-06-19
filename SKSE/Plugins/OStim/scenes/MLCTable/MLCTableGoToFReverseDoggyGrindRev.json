@@ -1,0 +1,42 @@
+{
+	"name": "Lovemaking: Table Go to Facing Away Doggystyle Grind Reverse",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 3.1666,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToFReverseDoggyGrindRev"
+		}
+	],
+	"destination": "MLCTableFReverseFingering",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 7,
+			"scale": 1.03,
+			"lookUp": -15,
+			"lookLeft": 0,	
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -25,
+			"lookLeft": -20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+		}
+	]
+}

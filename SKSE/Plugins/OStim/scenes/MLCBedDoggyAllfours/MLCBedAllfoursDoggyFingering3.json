@@ -1,0 +1,77 @@
+{
+	"name": "Lovemaking: Bed Allfours Fingering 3",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedAllfoursDoggyFingering3",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggyFingering3",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggyFingering3",
+			"playbackSpeed": 1.65,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedAllfoursDoggyFingering3",
+			"playbackSpeed": 1.9,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToBedAllfoursDoggyFingering3Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -80,
+            "lookLeft": -10,			
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -80,
+			"lookLeft": -10,
+			"tags": [
+				"allfours"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "grindingpenis",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "rubbingclitoris",
+			"actor": 0,
+			"target": 1
+		},
+		{
+			"type": "gropingbreast",
+			"actor": 1,
+			"target": 1
+		}
+    ]
+}

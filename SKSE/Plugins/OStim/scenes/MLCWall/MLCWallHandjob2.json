@@ -1,0 +1,71 @@
+{
+	"name": "Lovemaking: Wall Handjob 2",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallHandjob2",
+			"playbackSpeed": 1.00,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCWallHandjob2",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCWallHandjob2",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCWallHandjob2",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCWallGoToHandjob2Rev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -30,
+			"lookLeft": 60,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"lookUp": -50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		},
+		{
+			"type": "kissingneck",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

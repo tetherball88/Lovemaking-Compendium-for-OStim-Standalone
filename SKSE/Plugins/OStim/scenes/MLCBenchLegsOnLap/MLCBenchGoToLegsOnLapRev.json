@@ -1,0 +1,37 @@
+{
+	"name": "Lovemaking: Bench Go To Legs On Lap Idle Reverse",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.166,
+	"furniture": "bench",
+	"speeds":[
+		{
+			"animation": "MLCBenchGoToLegsOnLapRev"
+		}
+	],
+	"destination": "OStimBench2PBothSittingMF",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 5,
+			"scale": 1.03,
+			"lookUp": -30,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+    ]
+}

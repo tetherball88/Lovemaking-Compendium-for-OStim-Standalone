@@ -1,0 +1,92 @@
+{
+	"name": "Lovemaking: Reverse Embrace Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbrace"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCReverseEmbraceNeckKiss",
+			"description": "Kiss {1}'s neck",
+			"icon": "OStim/sensual/embrace_behind_mf",
+			"border": "ffafe0",
+			"priority": 0
+		},
+		{
+			"destination": "MLCGoToReverseEmbraceHandjob1",
+			"description": "Handjob",
+			"icon": "OStim/sexual/handjob_mf",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCGoToReverseThighjob",
+			"description": "Thighjob",
+			"icon": "OStim/sexual/thighjob_mf",
+			"border": "b969ed",
+			"priority": 3002
+		},
+		{
+			"destination": "MLCGoToReverseEmbraceCrescent1",
+			"description": "Grab {1}'s shoulder and go in",
+			"icon": "OStim/detail/holdinghip_behind_mf",
+			"border": "b969ed",
+			"priority": 3003
+		},
+		{
+			"destination": "MLCReverseEmbraceSex",
+			"description": "Have sex with {1}",
+			"icon": "OStim/sexual/bendover_standing_mf",
+			"border": "b969ed",
+			"priority": 3004
+		},
+		{
+			"destination": "MLCReverseEmbraceAnalSex",
+			"description": "Have anal sex with {1}",
+			"icon": "OStim/sexual/analsex_bendover_mf",
+			"border": "b969ed",
+			"priority": 3005
+		},
+		{
+			"destination": "MLCGoToReverseEmbraceBite",
+			"description": "Drink {1}'s blood",
+			"icon": "OStim/sensual/vampirebite",
+			"border": "f06666",
+			"priority": 4500
+		},
+		{
+			"destination": "MLCStandingEmbrace",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"idle"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -1,
+			"scale": 1.03,
+			"lookUp": -30,
+			"lookLeft": 50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -80,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

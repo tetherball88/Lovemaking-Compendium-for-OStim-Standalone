@@ -1,0 +1,76 @@
+{
+	"name": "Lovemaking: Reverse Embrace Anal Sex",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCReverseEmbraceAnalSex",
+			"playbackSpeed": 0.75,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCReverseEmbraceAnalSex",
+			"playbackSpeed": 1.0,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCReverseEmbraceAnalSex",
+			"playbackSpeed": 1.25,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCReverseEmbraceAnalSex",
+			"playbackSpeed": 1.50,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCReverseEmbraceAnalSex2",
+			"description": "Left {1}'s leg up",
+			"icon": "OStim/positional/raiseleg_f",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCReverseEmbrace",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"sex",
+		"anal"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 4,
+			"scale": 1.03,
+			"lookUp": -20,
+			"lookLeft": 30,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -60,
+			"tags": [
+				"standing",
+				"facingaway"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "analsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

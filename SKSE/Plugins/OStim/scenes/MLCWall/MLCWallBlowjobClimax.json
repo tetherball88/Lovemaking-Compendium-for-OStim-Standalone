@@ -1,0 +1,45 @@
+{
+	"name": "Lovemaking: Wall Blowjob Climax",
+	"modpack": "Lovemaking Compendium",
+	"length": 8.666,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallBlowjobClimax"
+		}
+	],
+	"destination": "MLCWallBlowjobClimaxIdle",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -30,
+			"lookLeft": 50,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookLeft": -10,
+			"lookUp": -70,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+	    {
+			"type": "blowjob",
+			"actor": 1,
+			"target": 0
+		}
+	]
+}

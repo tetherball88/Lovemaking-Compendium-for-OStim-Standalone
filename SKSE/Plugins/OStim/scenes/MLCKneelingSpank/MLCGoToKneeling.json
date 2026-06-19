@@ -1,0 +1,33 @@
+{
+	"name": "Lovemaking: Go to Kneeling Idle",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 5.166,
+	"speeds":[
+		{
+			"animation": "MLCGoToKneeling"
+		}
+	],
+	"destination": "MLCKneeling",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -10,
+			"scale": 1.03,
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	]
+}

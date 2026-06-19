@@ -1,0 +1,55 @@
+{
+	"name": "Lovemaking: Bed Kiss Between Breasts",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedMoFBetweenKiss"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedMoFNippleSucking",
+			"description": "Suck {1}'s nipple",
+			"icon": "OStim/sexual/suckingnipples_mf",
+			"border": "ffafe0",
+			"priority": 1000
+		},
+		{
+			"destination": "MLCBedMoFBellyKiss",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"kissing"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -4,
+			"scale": 1.03,
+			"tags": [
+				"lying"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": 60,
+			"tags": [
+				"lying"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "kissingneck",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

@@ -1,0 +1,94 @@
+{
+	"name": "Lovemaking: Wall Handjob 1",
+	"modpack": "Lovemaking Compendium",
+	"length": 2.0,
+	"furniture": "wall",
+	"speeds":[
+		{
+			"animation": "MLCWallHandjob",
+			"playbackSpeed": 1.00,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCWallHandjob",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCWallHandjob",
+			"playbackSpeed": 1.4,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCWallHandjob",
+			"playbackSpeed": 1.6,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+	        "origin": "OStimWall2PStandingLeaningMF",
+	        "description": "Give {0} a handjob",
+	        "icon": "MLC/mlc",
+	        "border": "5dade2",
+	        "priority": 3000
+		},
+		{
+			"destination": "MLCWallGoToHandjob2",
+			"description": "Kiss {0}'s neck, stroking with both hands",
+			"icon": "OStim/sexual/handjob_kiss_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCWallGoToBlowjob",
+			"description": "Lick {0}'s dick and masturbate",
+			"icon": "OStim/sensual/licking_alt",
+			"border": "b969ed",
+			"priority": 3001
+		},
+		{
+			"destination": "MLCWallGoToFacingGrinding",
+			"description": "{1} facing {0}, grinding on dick",
+			"icon": "OStim/sensual/restinghead_standing_mf",
+			"border": "b969ed",
+			"priority": 3002
+		},
+		{
+			"destination": "OStimWall2PStandingLeaningMF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -60,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"lookLeft": -60,
+			"lookUp": 20,
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[
+		{
+			"type": "handjob",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

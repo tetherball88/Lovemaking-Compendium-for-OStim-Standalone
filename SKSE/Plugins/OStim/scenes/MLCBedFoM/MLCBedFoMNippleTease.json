@@ -1,0 +1,64 @@
+{
+	"name": "Lovemaking: Bed Nipple Teasing",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedFoMNippleTease"
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCBedFoMNippleLickingHandjob",
+			"description": "Nipple licking with handjob",
+			"icon": "OStim/sensual/lips",
+			"border": "b969ed",
+			"priority": 1000
+		},
+		{
+			"origin": "OStim2PLyingKneelingMF",
+			"description": "Nipple teasing",
+			"icon": "OStim/detail/tickle_f",
+			"border": "ffafe0",
+			"priority": 1000
+		},
+		{
+			"destination": "OStim2PLyingKneelingMF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"teasing"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": -4,
+			"scale": 1.03,
+			"lookUp": -20,
+			"tags": [
+				"lying"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -25,
+			"lookLeft": -15,
+			"tags": [
+				"lying"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "teasing",
+			"actor": 1,
+			"target": 0
+		}
+    ]
+}

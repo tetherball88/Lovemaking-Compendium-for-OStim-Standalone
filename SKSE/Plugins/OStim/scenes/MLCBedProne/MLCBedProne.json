@@ -1,0 +1,74 @@
+{
+	"name": "Lovemaking: Bed Prone Sex",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedProne",
+			"playbackSpeed": 1.2,
+			"displaySpeed": 1.0
+		},
+		{
+			"animation": "MLCBedProne",
+			"playbackSpeed": 1.5,
+			"displaySpeed": 2.0
+		},
+		{
+			"animation": "MLCBedProne",
+			"playbackSpeed": 1.7,
+			"displaySpeed": 3.0
+		},
+		{
+			"animation": "MLCBedProne",
+			"playbackSpeed": 2.0,
+			"displaySpeed": 4.0
+		}
+	],
+	"navigations":[
+		{
+			"destination": "MLCGoToBedProne2",
+			"description": "Lean in and hold {1} tight",
+			"icon": "OStim/sexual/prone_mf",
+			"border": "b969ed",
+			"priority": 3000
+		},
+		{
+			"destination": "MLCGoToBedProneRev",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 2,
+			"scale": 1.03,
+			"lookUp": -50,
+            "lookLeft": -10,			
+			"tags": [
+				"kneeling"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -20,
+			"lookLeft": 20,
+			"tags": [
+				"lyingfront"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+		{
+			"type": "vaginalsex",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}

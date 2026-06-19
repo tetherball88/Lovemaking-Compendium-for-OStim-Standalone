@@ -1,0 +1,39 @@
+{
+	"name": "Lovemaking: Table Go to Facing Away Fingering",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.6666,
+	"furniture": "table",
+	"speeds":[
+		{
+			"animation": "MLCTableGoToFReverseFingering"
+		}
+	],
+	"destination": "MLCTableFReverseFingering",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 0,
+			"scale": 1.03,
+			"lookUp": -35,
+			"lookLeft": 40,	
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -25,
+			"lookLeft": -70,	
+			"tags": [
+				"standing"
+			],
+			"feetOnGround": true
+		}
+	],
+	"actions":[]
+}

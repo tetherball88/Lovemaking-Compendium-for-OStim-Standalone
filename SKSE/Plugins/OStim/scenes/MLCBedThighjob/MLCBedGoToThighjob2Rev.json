@@ -1,0 +1,37 @@
+{
+	"name": "Lovemaking: Bed Transition to Thighjob 2 Reverse",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 1.766,
+	"speeds":[
+		{
+			"animation": "MLCBedGoToThighjob2Rev"
+		}
+	],
+	"destination": "MLCBedThighjob",
+	"tags":[
+		"transition"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 1,
+			"scale": 1.03,
+			"lookUp": -50,
+			"tags": [
+				"lyingback"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -40,
+			"tags": [
+				"sitting"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+    ]
+}

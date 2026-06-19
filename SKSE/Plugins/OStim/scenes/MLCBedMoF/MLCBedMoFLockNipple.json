@@ -1,0 +1,58 @@
+{
+	"name": "Lovemaking: Bed Leg-lock Nipple Sucking",
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2.0,
+	"speeds":[
+		{
+			"animation": "MLCBedMoFLockNipple"
+		}
+	],
+	"navigations":[
+		{
+			"origin": "OStim2PLyingOnTopMF",
+			"description": "Nipple sucking",
+			"icon": "OStim/sexual/suckingnipples_mf",
+			"border": "ffafe0",
+			"priority": 1000
+		},
+		{
+			"destination": "OStim2PLyingOnTopMF",
+			"description": "Return",
+			"icon": "OStim/symbols/return",
+			"priority": -1000
+		}
+	],
+	"tags":[
+		"kissing"
+	],
+	"actors":[
+		{
+			"intendedSex": "male",
+			"sosBend": 3,
+			"scale": 1.03,
+			"lookUp": -50,
+			"lookLeft": 15,
+			"tags": [
+				"lying"
+			],
+			"feetOnGround": false
+		},
+		{
+			"intendedSex": "female",
+			"scale": 1.0,
+			"lookUp": -70,
+			"lookLeft": 70,
+			"tags": [
+				"lying"
+			],
+			"feetOnGround": false
+		}
+	],
+	"actions":[
+	    {
+			"type": "suckingnipples",
+			"actor": 0,
+			"target": 1
+		}
+    ]
+}
