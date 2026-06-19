@@ -2,13 +2,13 @@
 	"name": "Lovemaking: Bed Belly Kiss",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedMoFBellyKiss"
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"origin": "OStim2PLyingOnTopMF",
 			"description": "Kiss {1}'s tummy",
 			"icon": "OStim/sensual/licking",
@@ -36,10 +36,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"kissing"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -4,
@@ -61,11 +61,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "kissingneck",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

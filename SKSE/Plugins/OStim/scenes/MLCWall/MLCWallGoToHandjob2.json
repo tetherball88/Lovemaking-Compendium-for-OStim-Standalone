@@ -3,16 +3,16 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 1.75,
 	"furniture": "wall",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCWallGoToHandjob2"
 		}
 	],
 	"destination": "MLCWallHandjob2",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -34,8 +34,8 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "handjob",
 			"actor": 1,
 			"target": 0

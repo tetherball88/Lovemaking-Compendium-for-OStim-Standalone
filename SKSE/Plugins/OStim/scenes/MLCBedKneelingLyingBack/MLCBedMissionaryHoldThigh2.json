@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Missionary Holding Thighs with Kiss",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedMissionaryHoldThigh2",
 			"playbackSpeed": 1.0,
@@ -29,8 +29,8 @@
 			"displaySpeed": 5.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCBedGoToMissionaryHoldClimax2",
 			"description": "Internal climax",
 			"icon": "OStim/symbols/meter_6_climax",
@@ -44,10 +44,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"missionary"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -68,7 +68,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
@@ -79,5 +79,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

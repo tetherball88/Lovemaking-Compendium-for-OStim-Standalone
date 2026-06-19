@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Mating Press Anal 4",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCMatingPressAnal4",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCMatingPress",
 			"description": "Go back",
@@ -38,11 +38,11 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"matingpress",
 		"anal"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -63,11 +63,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "analsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

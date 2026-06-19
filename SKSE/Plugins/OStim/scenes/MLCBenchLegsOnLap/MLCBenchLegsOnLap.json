@@ -3,12 +3,12 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "bench",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBenchLegsOnLap"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBenchGoToLegsOnLapNeck",
 			"description": "Kiss {1}'s neck",
@@ -23,15 +23,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 5,
 			"scale": 1.03,
 			"lookUp": 50,
-            "lookLeft": 30, 
+			"lookLeft": 30,
 			"tags": [
 				"sitting"
 			],
@@ -41,18 +40,18 @@
 			"intendedSex": "female",
 			"scale": 1.0,
 			"lookUp": -50,
-            "lookLeft": -30, 
+			"lookLeft": -30,
 			"tags": [
 				"sitting"
 			],
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

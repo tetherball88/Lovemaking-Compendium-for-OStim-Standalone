@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Reverse Embrace Sex 4",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceSex4",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCReverseEmbraceSex5",
 			"description": "Don't stop",
@@ -39,7 +39,7 @@
 			"priority": -1000
 		}
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -60,8 +60,8 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "oralfingering",
 			"actor": 0,
 			"target": 1
@@ -75,5 +75,5 @@
 			"type": "femalemasturbation",
 			"actor": 1
 		}
-    ]
+	]
 }

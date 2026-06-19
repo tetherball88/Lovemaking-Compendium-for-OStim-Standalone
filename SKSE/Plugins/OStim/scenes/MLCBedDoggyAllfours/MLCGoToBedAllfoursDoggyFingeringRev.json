@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Allfours Doggystyle Fingering Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToBedAllfoursDoggyFingeringRev"
 		}
 	],
 	"destination": "MLCBedAllfoursDoggy",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -33,6 +33,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

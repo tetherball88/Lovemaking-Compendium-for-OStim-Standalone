@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "wall",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCWallHandjob",
 			"playbackSpeed": 1.00,
@@ -25,13 +25,13 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
-	        "origin": "OStimWall2PStandingLeaningMF",
-	        "description": "Give {0} a handjob",
-	        "icon": "MLC/mlc",
-	        "border": "5dade2",
-	        "priority": 3000
+			"origin": "OStimWall2PStandingLeaningMF",
+			"description": "Give {0} a handjob",
+			"icon": "MLC/mlc",
+			"border": "5dade2",
+			"priority": 3000
 		},
 		{
 			"destination": "MLCWallGoToHandjob2",
@@ -61,9 +61,8 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -84,11 +83,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "handjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

@@ -2,18 +2,18 @@
 	"name": "Lovemaking: Bed Kneeling Idle",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedKneelingIdle"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"origin": "OStim2PBothLyingMF",
-	        "description": "Kneeling embrace",
-	        "icon": "OStim/sexual/reverselotus_mf",
-	        "border": "b969ed",
-	        "priority": 3002
+			"description": "Kneeling embrace",
+			"icon": "OStim/sexual/reverselotus_mf",
+			"border": "b969ed",
+			"priority": 3002
 		},
 		{
 			"destination": "MLCGoToBedKneelingDoggyIntro",
@@ -29,15 +29,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
 			"lookUp": -20,
-			"lookLeft": -50, 			
+			"lookLeft": -50,
 			"tags": [
 				"kneeling"
 			],
@@ -54,11 +53,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

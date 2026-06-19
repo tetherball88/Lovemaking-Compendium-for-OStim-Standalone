@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Cowgirl 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedCowgirl2",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBedGoToCowgirlSide",
 			"description": "Lie on the side",
@@ -39,15 +39,15 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	"cowgirl"
+	"tags": [
+		"cowgirl"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 6,
 			"scale": 1.0,
-			"lookUp": -10, 			
+			"lookUp": -10,
 			"tags": [
 				"lyingback"
 			],
@@ -63,8 +63,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
@@ -74,5 +74,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

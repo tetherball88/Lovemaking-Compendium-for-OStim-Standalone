@@ -3,7 +3,7 @@
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "table",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCTableFSittingCunnilingus",
 			"playbackSpeed": 1.0,
@@ -25,7 +25,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCTableGoToFSittingCunnilingusRev",
 			"description": "Return",
@@ -33,14 +33,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
-			"scale": 1.03,			
+			"scale": 1.03,
 			"tags": [
 				"standing"
 			],
@@ -55,11 +55,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "cunnilingus",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

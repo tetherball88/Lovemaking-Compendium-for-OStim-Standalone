@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Kneeling Blowjob 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 3.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToKneelingBlowjob2"
 		}
 	],
 	"destination": "MLCBedKneelingBlowjob2",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -32,11 +32,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "blowjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

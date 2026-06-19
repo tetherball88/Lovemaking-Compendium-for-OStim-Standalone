@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Side Cuddle Spooning Alt",
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedSideCuddleSpooningAlt",
 			"playbackSpeed": 1.2,
@@ -24,8 +24,8 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCBedSideCuddleSpooning",
 			"description": "{0} takes over",
 			"icon": "OStim/symbols/switch",
@@ -39,15 +39,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-			"lookUp": -50, 	
-            "lookLeft": 60,			
+			"lookUp": -50,
+			"lookLeft": 60,
 			"tags": [
 				"lyingside"
 			],
@@ -64,12 +63,12 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1,
-			"performer":1
+			"performer": 1
 		},
 		{
 			"type": "gropingbreast",
@@ -86,5 +85,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

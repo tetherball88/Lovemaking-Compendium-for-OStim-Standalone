@@ -3,16 +3,16 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.166,
 	"furniture": "bench",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBenchGoToLegsOnLapRev"
 		}
 	],
 	"destination": "OStimBench2PBothSittingMF",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 5,
@@ -32,6 +32,5 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

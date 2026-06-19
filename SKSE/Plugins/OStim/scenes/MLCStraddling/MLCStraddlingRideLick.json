@@ -2,12 +2,12 @@
 	"name": "Lovemaking: Straddling Cowgirl Idle Licking",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCStraddlingRideLick"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToStraddlingPump",
 			"description": "Thrust",
@@ -22,11 +22,11 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"kissing",
 		"sex"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
@@ -46,8 +46,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "kissingneck",
 			"actor": 1,
 			"target": 0
@@ -57,5 +57,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

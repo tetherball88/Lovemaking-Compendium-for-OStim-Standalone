@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Straddling Cowgirl 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCStraddlingRide2",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCStraddlingRide3",
 			"description": "Faster",
@@ -39,10 +39,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"sex"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
@@ -61,12 +61,12 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1,
 			"performer": 1
 		}
-    ]
+	]
 }

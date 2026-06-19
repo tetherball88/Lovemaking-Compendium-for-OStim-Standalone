@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "wall",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCWallBlowjob3",
 			"playbackSpeed": 1.0,
@@ -25,8 +25,8 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCWallBlowjobClimax",
 			"description": "Climax",
 			"icon": "OStim/symbols/meter_6_climax",
@@ -40,9 +40,8 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -63,11 +62,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "blowjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

@@ -3,7 +3,7 @@
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "table",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCTableFSittingGrind",
 			"playbackSpeed": 1.0,
@@ -25,7 +25,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCTableGoToFSittingMiss",
 			"description": "Hug and have sex with {1}",
@@ -40,14 +40,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 9,
-			"scale": 1.03,			
+			"scale": 1.03,
 			"tags": [
 				"standing"
 			],
@@ -62,7 +62,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "grindingpenis",
 			"actor": 1,
@@ -79,5 +79,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

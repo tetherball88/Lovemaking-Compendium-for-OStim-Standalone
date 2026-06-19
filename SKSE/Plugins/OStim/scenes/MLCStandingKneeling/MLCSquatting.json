@@ -2,12 +2,12 @@
 	"name": "Lovemaking: Squatting",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCSquatting"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToStandingLying",
 			"description": "Lie on the back",
@@ -36,10 +36,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
@@ -61,11 +61,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdinghead",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

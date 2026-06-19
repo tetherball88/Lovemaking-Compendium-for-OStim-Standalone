@@ -3,22 +3,22 @@
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.6666,
 	"furniture": "table",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCTableGoToFReverseFingeringRev"
 		}
 	],
 	"destination": "MLCTableFReverseIdle",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
 			"scale": 1.03,
 			"lookUp": -35,
-			"lookLeft": 40,	
+			"lookLeft": 40,
 			"tags": [
 				"standing"
 			],
@@ -35,5 +35,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[]
+	"actions": []
 }

@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Side Cuddle Idle",
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedSideCuddleIdle",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToBedSideCuddleCaress",
 			"description": "Kiss {1}'s neck and caress each other",
@@ -39,15 +39,15 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	    "idle"
+	"tags": [
+		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,
 			"scale": 1.03,
-			"lookUp": -50, 			
+			"lookUp": -50,
 			"tags": [
 				"lyingside"
 			],
@@ -64,8 +64,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
@@ -80,5 +80,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Reverse Embrace Sex 6",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceSex6",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCReverseEmbraceSexClimax",
 			"description": "Climax",
@@ -39,7 +39,7 @@
 			"priority": -1000
 		}
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -47,7 +47,7 @@
 			"tags": [
 				"standing"
 			],
-			"autoTransitions":{
+			"autoTransitions": {
 				"climax": "MLCReverseEmbraceSexClimax"
 			},
 			"feetOnGround": true
@@ -63,8 +63,8 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "pullinghair",
 			"actor": 0,
 			"target": 1
@@ -74,5 +74,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Reverse Embrace Anal Sex 3",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceAnalSex31",
 			"displaySpeed": 1.0
@@ -16,7 +16,7 @@
 			"displaySpeed": 3.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCReverseEmbraceAnalSex2",
 			"description": "Return",
@@ -24,11 +24,11 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"sex",
 		"anal"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 9,
@@ -48,11 +48,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "analsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

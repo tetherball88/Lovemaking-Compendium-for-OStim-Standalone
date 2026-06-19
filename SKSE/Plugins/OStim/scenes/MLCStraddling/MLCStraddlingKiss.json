@@ -2,12 +2,12 @@
 	"name": "Lovemaking: Straddling Kiss",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCStraddlingKiss"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCStraddlingKiss2",
 			"description": "More passion",
@@ -22,10 +22,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"kissing"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,
@@ -44,11 +44,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "kissing",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

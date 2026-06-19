@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Thighjob 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToThighjob2"
 		}
 	],
 	"destination": "MLCBedThighjob2",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -32,6 +32,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

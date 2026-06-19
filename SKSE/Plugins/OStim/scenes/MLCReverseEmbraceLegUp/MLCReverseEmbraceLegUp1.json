@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Reverse Embrace Leg Up",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceLegUp1",
 			"playbackSpeed": 0.85,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToReverseEmbraceLegUp2",
 			"description": "Kiss and finger {1}",
@@ -39,16 +39,16 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"sex"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 6,
 			"scale": 1.03,
 			"lookUp": -50,
-            "lookLeft": 10, 
+			"lookLeft": 10,
 			"tags": [
 				"standing"
 			],
@@ -58,7 +58,7 @@
 			"intendedSex": "female",
 			"scale": 1.0,
 			"lookUp": -30,
-            "lookLeft": -20, 
+			"lookLeft": -20,
 			"tags": [
 				"standing",
 				"facingaway"
@@ -66,11 +66,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

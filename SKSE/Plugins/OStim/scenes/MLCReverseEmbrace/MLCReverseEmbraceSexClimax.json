@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Reverse Embrace Sex Climax",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 5.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceSexClimax"
 		}
 	],
 	"destination": "MLCReverseEmbraceSexClimaxIdle",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,

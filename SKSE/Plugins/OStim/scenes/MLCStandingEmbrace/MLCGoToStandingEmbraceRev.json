@@ -2,17 +2,17 @@
 	"name": "Lovemaking: Go to Standing Embrace Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.166,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToStandingEmbraceRev",
 			"playbackSpeed": 1.0
 		}
 	],
 	"destination": "OStim2PStandingApartMF",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,

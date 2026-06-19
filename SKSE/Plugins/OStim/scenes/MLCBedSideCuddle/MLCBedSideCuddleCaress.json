@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Side Cuddle Caressing",
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedSideCuddleCaress",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToBedSideCuddleFingering",
 			"description": "Rub {1}'s pussy",
@@ -39,15 +39,15 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	    "idle"
+	"tags": [
+		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,
 			"scale": 1.03,
-			"lookUp": -50, 			
+			"lookUp": -50,
 			"tags": [
 				"lyingside"
 			],
@@ -64,8 +64,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
@@ -95,5 +95,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "bench",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBenchLapSittingRevCowgirl2",
 			"playbackSpeed": 1.00,
@@ -25,7 +25,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBenchGoToLapSittingRevCowgirl2Rev",
 			"description": "Return",
@@ -33,10 +33,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"cowgirl"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 9,
@@ -55,7 +55,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
@@ -67,5 +67,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

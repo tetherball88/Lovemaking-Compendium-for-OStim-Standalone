@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Reverse Embrace Grinding with Spank",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceCrescent2",
 			"playbackSpeed": 0.85,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToReverseEmbraceCrescent3",
 			"description": "Wrap your arms around {1} and go at it",
@@ -39,16 +39,16 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"sex"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
 			"scale": 1.03,
 			"lookUp": -40,
-            "lookLeft": 10, 
+			"lookLeft": 10,
 			"tags": [
 				"standing"
 			],
@@ -64,12 +64,12 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1,
 			"performer": 1
 		}
-    ]
+	]
 }

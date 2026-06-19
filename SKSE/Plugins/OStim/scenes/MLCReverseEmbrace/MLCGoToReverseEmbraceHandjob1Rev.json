@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Go to RE Handjob 1 Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToReverseEmbraceHandjob1Rev"
 		}
 	],
 	"destination": "MLCReverseEmbrace",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -34,5 +34,5 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[]
+	"actions": []
 }

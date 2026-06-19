@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Go to RE Thighjob Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToReverseThighjobRev"
 		}
 	],
 	"destination": "MLCReverseEmbrace",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -33,12 +33,12 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "thighjob",
 			"actor": 1,
 			"target": 0,
 			"performer": 0
 		}
-    ]
+	]
 }

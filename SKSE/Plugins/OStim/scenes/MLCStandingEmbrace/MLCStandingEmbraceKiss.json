@@ -2,12 +2,12 @@
 	"name": "Lovemaking: Standing Embrace Kiss",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCStandingEmbraceKiss"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCStandingEmbraceKissSex",
 			"description": "Make some love",
@@ -22,10 +22,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"kissing"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,
@@ -44,8 +44,8 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "kissing",
 			"actor": 0,
 			"target": 1
@@ -60,5 +60,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

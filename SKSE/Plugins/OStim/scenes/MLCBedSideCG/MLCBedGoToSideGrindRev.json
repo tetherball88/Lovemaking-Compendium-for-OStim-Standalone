@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Sideways Dick Grinding Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToSideGrindRev"
 		}
 	],
 	"destination": "MLCBedThighjob",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -32,6 +32,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

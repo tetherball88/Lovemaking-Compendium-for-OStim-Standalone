@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Standing Embrace Kiss Sex",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCStandingEmbraceKissSex",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCStandingEmbraceKissSex2",
 			"description": "Keep going",
@@ -46,7 +46,7 @@
 			"priority": -1000
 		}
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
@@ -65,8 +65,8 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "kissing",
 			"actor": 0,
 			"target": 1
@@ -76,5 +76,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

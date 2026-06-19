@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Penis Grinding 2 Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToPussyJob2Rev"
 		}
 	],
 	"destination": "MLCBedPussyJob",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -32,6 +32,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Go to RE Leg Up 2 Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToReverseEmbraceLegUp2Rev"
 		}
 	],
 	"destination": "MLCReverseEmbraceLegUp1",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 6,
@@ -31,11 +31,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

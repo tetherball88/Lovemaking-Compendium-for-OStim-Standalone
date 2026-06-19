@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Lying on Back Footjob",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCStandingLyingFootjob",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCStandingLying",
 			"description": "Return",
@@ -32,10 +32,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"footjob"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -56,11 +56,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "footjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

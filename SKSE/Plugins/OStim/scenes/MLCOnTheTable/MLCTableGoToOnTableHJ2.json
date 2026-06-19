@@ -3,22 +3,22 @@
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
 	"furniture": "table",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCTableGoToOnTableHJ2"
 		}
 	],
 	"destination": "MLCTableOnTableHJ2",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-			"lookLeft":-20,
-			"lookUp":-30,	
+			"lookLeft": -20,
+			"lookUp": -30,
 			"tags": [
 				"standing"
 			],
@@ -27,16 +27,16 @@
 		{
 			"intendedSex": "female",
 			"scale": 1.0,
-			"lookLeft":-20,
-			"lookUp":-30,
+			"lookLeft": -20,
+			"lookUp": -30,
 			"tags": [
 				"sitting"
 			],
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "handjob",
 			"actor": 1,
 			"target": 0

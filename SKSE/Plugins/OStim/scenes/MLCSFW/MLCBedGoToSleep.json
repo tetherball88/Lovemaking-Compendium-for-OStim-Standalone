@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Transition to Sleeping",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 4.166,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToSleep"
 		}
@@ -13,10 +13,10 @@
 	"border": "5dade2",
 	"priority": 4001,
 	"destination": "MLCBedSleep",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 6,
@@ -37,6 +37,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

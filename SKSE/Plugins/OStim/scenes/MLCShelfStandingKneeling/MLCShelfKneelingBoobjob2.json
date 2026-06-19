@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "shelf",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCShelfKneelingBoobjob2",
 			"playbackSpeed": 1.00,
@@ -25,7 +25,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCShelfKneelingBoobjob",
 			"description": "Up and down",
@@ -40,9 +40,8 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 6,
@@ -61,11 +60,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "boobjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

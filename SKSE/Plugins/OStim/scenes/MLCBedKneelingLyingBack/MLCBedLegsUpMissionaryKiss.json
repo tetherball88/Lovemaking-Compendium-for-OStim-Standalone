@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Legs Up Kiss with Masturbation",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedLegsUpMissionaryKiss",
 			"playbackSpeed": 1.25,
@@ -14,7 +14,7 @@
 			"displaySpeed": 2.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBedLegsUpMissionary",
 			"description": "Go in slowly",
@@ -29,10 +29,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"missionary"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -51,10 +51,10 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "malemasturbation",
 			"actor": 0
 		}
-    ]
+	]
 }

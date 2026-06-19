@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Kneeling Blowjob with Handjob",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedKneelingBlowjob",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBedGoToKneelingBlowjob2",
 			"description": "Blowjob",
@@ -39,14 +39,13 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-			"lookUp": -50, 			
+			"lookUp": -50,
 			"tags": [
 				"lyingback"
 			],
@@ -62,8 +61,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "blowjob",
 			"actor": 1,
 			"target": 0
@@ -73,5 +72,5 @@
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Mating Press Anal Fingering",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCMatingPressFingering",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCMatingPressAnal",
 			"description": "Mating press",
@@ -39,10 +39,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"fingering"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -64,11 +64,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "analfingering",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

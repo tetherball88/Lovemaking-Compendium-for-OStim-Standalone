@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Go to Straddling Sex",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToStraddlingPump"
 		}
 	],
 	"destination": "MLCStraddlingPump",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,

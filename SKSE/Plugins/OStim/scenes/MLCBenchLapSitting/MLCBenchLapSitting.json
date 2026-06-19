@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "bench",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBenchLapSitting",
 			"playbackSpeed": 1.00,
@@ -25,7 +25,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBenchGoToLapSittingRevCowgirl",
 			"description": "Ride {0}",
@@ -40,15 +40,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 9,
 			"scale": 1.03,
 			"lookUp": 50,
-            "lookLeft": 30, 
+			"lookLeft": 30,
 			"tags": [
 				"sitting"
 			],
@@ -58,14 +57,14 @@
 			"intendedSex": "female",
 			"scale": 1.0,
 			"lookUp": -50,
-            "lookLeft": -30, 
+			"lookLeft": -30,
 			"tags": [
 				"sitting"
 			],
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "handjob",
 			"actor": 1,
@@ -76,5 +75,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

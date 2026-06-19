@@ -3,12 +3,12 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "shelf",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCShelfKneelingIdle"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCShelfGoToKneelingBoobjob",
 			"description": "Give {0} a boobjob",
@@ -30,14 +30,13 @@
 			"priority": 1005
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-			"lookUp": -30, 
+			"lookUp": -30,
 			"tags": [
 				"standing"
 			],
@@ -53,11 +52,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "holdingthigh",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

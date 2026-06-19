@@ -3,7 +3,7 @@
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "table",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCTableOnTableHJ2",
 			"playbackSpeed": 1.0,
@@ -25,8 +25,8 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCTableGoToOnTableHJ3",
 			"description": "Kiss {1}",
 			"icon": "OStim/sensual/kissing_holdingchin_mf",
@@ -40,15 +40,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-            "lookLeft": 60,
-			"lookUp":-40,			
+			"lookLeft": 60,
+			"lookUp": -40,
 			"tags": [
 				"standing"
 			],
@@ -58,14 +57,14 @@
 			"intendedSex": "female",
 			"scale": 1.0,
 			"lookLeft": 70,
-			"lookUp":10,
+			"lookUp": 10,
 			"tags": [
 				"sitting"
 			],
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "handjob",
 			"actor": 1,
@@ -76,5 +75,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

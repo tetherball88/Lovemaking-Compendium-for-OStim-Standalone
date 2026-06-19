@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Breast Sucking Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.166,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToSuckBreastHandjobRev"
 		}
 	],
 	"destination": "OStim2PBothLyingMF",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -32,6 +32,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

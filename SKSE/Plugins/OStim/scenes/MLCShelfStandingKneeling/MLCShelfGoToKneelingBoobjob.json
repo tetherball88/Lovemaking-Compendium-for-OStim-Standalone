@@ -3,16 +3,16 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 1.166,
 	"furniture": "shelf",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCShelfGoToKneelingBoobjob"
 		}
 	],
 	"destination": "MLCShelfKneelingBoobjob",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -31,6 +31,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	]
+	"actions": []
 }

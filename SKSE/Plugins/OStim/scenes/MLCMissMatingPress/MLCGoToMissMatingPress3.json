@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Mating Press 3",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.9,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToMissMatingPress3"
 		}
 	],
 	"destination": "MLCMissMatingPress3",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -32,11 +32,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

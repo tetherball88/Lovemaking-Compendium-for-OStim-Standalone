@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Go to Standing Embrace",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.166,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToStandingEmbrace",
 			"playbackSpeed": 1.0
@@ -14,10 +14,10 @@
 	"icon": "MLC/mlc",
 	"border": "5dade2",
 	"priority": 1000,
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,

@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Squatting Handjob 3",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCSquattingHandjob3",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToSquattingHandjob3Rev",
 			"description": "Return",
@@ -32,7 +32,7 @@
 			"priority": -1000
 		}
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -54,11 +54,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "handjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

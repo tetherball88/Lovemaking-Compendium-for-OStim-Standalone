@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Squatting Blowjob",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCSquattingBlowjob",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCSquattingBlowjobClimaxEx",
 			"description": "External climax",
@@ -46,10 +46,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"oral"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -58,7 +58,7 @@
 			"tags": [
 				"standing"
 			],
-			"autoTransitions":{
+			"autoTransitions": {
 				"climax": "MLCSquattingBlowjobClimaxEx"
 			},
 			"feetOnGround": true
@@ -72,11 +72,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "blowjob",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

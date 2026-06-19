@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Kneeling Foreplay Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.166,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToBedKneelingDoggyIntroRev"
 		}
 	],
 	"destination": "MLCBedKneelingIdle",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -33,6 +33,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

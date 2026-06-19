@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Kneeling Right Spank 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCKneelingSpank2Right"
 		}
 	],
 	"destination": "MLCKneelingSpankIdle2",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,

@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "wall",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCWallBlowjob",
 			"playbackSpeed": 1.00,
@@ -25,8 +25,8 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCWallGoToBlowjob2",
 			"description": "Suck {0}'s dick",
 			"icon": "OStim/sexual/blowjob_mf",
@@ -40,9 +40,8 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -63,7 +62,7 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "lickingpenis",
 			"actor": 1,
@@ -73,5 +72,5 @@
 			"type": "femalemasturbation",
 			"actor": 1
 		}
-    ]
+	]
 }

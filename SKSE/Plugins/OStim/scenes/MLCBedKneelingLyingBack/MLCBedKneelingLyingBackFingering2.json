@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Kneeling Lying Back Fingering 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedKneelingLyingBackFingering2",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBedKneelingLyingBackFingering",
 			"description": "Return",
@@ -32,10 +32,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"missionary"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
@@ -58,7 +58,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalfingering",
 			"actor": 0,
@@ -69,5 +69,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

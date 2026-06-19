@@ -3,16 +3,16 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 1.166,
 	"furniture": "wall",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCWallGoToFacingVaginal"
 		}
 	],
 	"destination": "MLCWallFacingVaginal",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -35,6 +35,5 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	]
+	"actions": []
 }

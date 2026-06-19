@@ -3,13 +3,13 @@
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "table",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCTableFSitting"
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCTableGoToOnTableIdle",
 			"description": "Lie sideways on the table",
 			"icon": "OStim/positional/lyingside_f",
@@ -37,14 +37,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
-			"scale": 1.03,			
+			"scale": 1.03,
 			"tags": [
 				"standing"
 			],
@@ -59,5 +59,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[]
+	"actions": []
 }

@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Kneeling Foreplay",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedKneelingDoggyIntro",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToBedKneelingDoggy",
 			"description": "Go in",
@@ -53,14 +53,13 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-			"lookUp": -80,		
+			"lookUp": -80,
 			"tags": [
 				"kneeling"
 			],
@@ -76,8 +75,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
@@ -97,5 +96,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

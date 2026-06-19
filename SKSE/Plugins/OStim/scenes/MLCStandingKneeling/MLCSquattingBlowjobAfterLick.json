@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Squatting Post-Blowjob Licking",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCSquattingBlowjobAfterLick",
 			"playbackSpeed": 0.75,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCSquatting",
 			"description": "Go back",
@@ -38,10 +38,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"oral"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
@@ -62,8 +62,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "lickingpenis",
 			"actor": 1,
 			"target": 0
@@ -77,5 +77,5 @@
 			"type": "femalemasturbation",
 			"actor": 1
 		}
-    ]
+	]
 }

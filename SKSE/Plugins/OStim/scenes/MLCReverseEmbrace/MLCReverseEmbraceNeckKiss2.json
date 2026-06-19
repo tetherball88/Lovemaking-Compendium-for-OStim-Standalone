@@ -2,12 +2,12 @@
 	"name": "Lovemaking: Reverse Embrace Neck Kiss 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceNeckKiss2"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCReverseEmbraceNeckKiss3",
 			"description": "Get lost in passion",
@@ -22,10 +22,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"kissing"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,
@@ -45,8 +45,8 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "kissingneck",
 			"actor": 0,
 			"target": 1
@@ -61,5 +61,5 @@
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

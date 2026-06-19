@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Penis Grinding",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedPussyJob",
 			"playbackSpeed": 1.0,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBedGoToPussyJob2",
 			"description": "Help {1} out",
@@ -46,14 +46,13 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
-			"lookUp": -10,		
+			"lookUp": -10,
 			"tags": [
 				"lyingback"
 			],
@@ -69,8 +68,8 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "holdingbody",
 			"actor": 0,
 			"target": 1
@@ -90,5 +89,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

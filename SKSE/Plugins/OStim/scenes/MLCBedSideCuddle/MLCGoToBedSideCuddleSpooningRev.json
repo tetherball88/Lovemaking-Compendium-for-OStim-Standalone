@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Side Cuddle Spooning Reverse",
 	"modpack": "Lovemaking Compendium",
 	"length": 1.7,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToBedSideCuddleSpooningRev"
 		}
 	],
 	"destination": "MLCBedSideCuddleFingering",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,
@@ -33,11 +33,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "rubbingclitoris",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

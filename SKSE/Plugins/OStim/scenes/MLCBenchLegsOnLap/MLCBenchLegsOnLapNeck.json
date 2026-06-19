@@ -3,7 +3,7 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.0,
 	"furniture": "bench",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBenchLegsOnLapNeck",
 			"playbackSpeed": 1.00,
@@ -25,7 +25,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBenchGoToLegsOnLapFinger",
 			"description": "Kiss {1} between breasts and finger",
@@ -40,9 +40,8 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 5,
@@ -61,7 +60,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "kissingneck",
 			"actor": 0,
@@ -72,5 +71,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

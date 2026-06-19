@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Mating Press 3",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCMissMatingPress3",
 			"playbackSpeed": 1.1,
@@ -29,7 +29,7 @@
 			"displaySpeed": 5.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToMissMatingPress3Rev",
 			"description": "Return",
@@ -37,10 +37,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"matingpress"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
@@ -61,11 +61,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

@@ -2,12 +2,12 @@
 	"name": "Lovemaking: Bed Nipple Teasing",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedFoMNippleTease"
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCBedFoMNippleLickingHandjob",
 			"description": "Nipple licking with handjob",
@@ -29,10 +29,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"teasing"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -4,
@@ -54,11 +54,11 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "teasing",
 			"actor": 1,
 			"target": 0
 		}
-    ]
+	]
 }

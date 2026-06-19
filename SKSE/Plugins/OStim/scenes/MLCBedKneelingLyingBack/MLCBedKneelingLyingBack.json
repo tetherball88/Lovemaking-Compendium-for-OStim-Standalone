@@ -2,13 +2,13 @@
 	"name": "Lovemaking: Bed Kneeling Lying Back",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedKneelingLyingBack"
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"origin": "OStim2PLyingOnTopMF",
 			"description": "Stand on your knees",
 			"icon": "OStim/positional/kneeling_m_end",
@@ -36,10 +36,10 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"idle"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 0,

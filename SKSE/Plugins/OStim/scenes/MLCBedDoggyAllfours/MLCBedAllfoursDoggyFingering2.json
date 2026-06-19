@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Allfours Fingering 2",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedAllfoursDoggyFingering2",
 			"playbackSpeed": 1.2,
@@ -24,8 +24,8 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCGoToBedAllfoursDoggyFingering3",
 			"description": "Rub dick against the pussy",
 			"icon": "OStim/sexual/vaginalsex_mf",
@@ -39,15 +39,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
 			"scale": 1.03,
 			"lookUp": -90,
-            "lookLeft": 10,			
+			"lookLeft": 10,
 			"tags": [
 				"kneeling"
 			],
@@ -64,7 +63,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalfingering",
 			"actor": 0,
@@ -75,5 +74,5 @@
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

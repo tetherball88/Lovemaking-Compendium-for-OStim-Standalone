@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Transition to Side Cuddle Idle",
 	"modpack": "Lovemaking Compendium",
 	"length": 2.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCGoToBedSideCuddleIdle"
 		}
@@ -13,10 +13,10 @@
 	"border": "5dade2",
 	"priority": 2991,
 	"destination": "MLCBedSideCuddleIdle",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": -10,
@@ -37,6 +37,5 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

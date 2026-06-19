@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Reverse Embrace Wrap Arms Sex with Tongue",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceCrescent3",
 			"playbackSpeed": 1.00,
@@ -24,8 +24,8 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
-	    {
+	"navigations": [
+		{
 			"destination": "MLCReverseEmbraceCrescent3",
 			"description": "Change expression to regular",
 			"icon": "OStim/sensual/kissing_end",
@@ -39,16 +39,16 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
+	"tags": [
 		"sex"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 2,
 			"scale": 1.03,
 			"lookUp": 10,
-            "lookLeft": -60,
+			"lookLeft": -60,
 			"tags": [
 				"standing"
 			],
@@ -65,11 +65,11 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
 		}
-    ]
+	]
 }

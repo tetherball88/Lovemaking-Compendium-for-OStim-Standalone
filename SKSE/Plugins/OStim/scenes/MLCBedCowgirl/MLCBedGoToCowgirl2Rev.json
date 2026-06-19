@@ -2,16 +2,16 @@
 	"name": "Lovemaking: Bed Transition to Cowgirl 2 Reverse",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 1.666,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedGoToCowgirl2Rev"
 		}
 	],
 	"destination": "MLCBedCowgirl",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 6,
@@ -32,12 +32,12 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
-	    {
+	"actions": [
+		{
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1,
 			"performer": 1
 		}
-    ]
+	]
 }

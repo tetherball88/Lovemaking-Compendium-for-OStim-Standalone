@@ -3,21 +3,21 @@
 	"modpack": "Lovemaking Compendium",
 	"length": 2.166,
 	"furniture": "bench",
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBenchGoToLegsOnLap"
 		}
 	],
-    "origin": "OStimBench2PBothSittingMF",
+	"origin": "OStimBench2PBothSittingMF",
 	"description": "Place legs on {0}'s lap",
 	"icon": "MLC/mlc",
 	"border": "5dade2",
 	"priority": 3004,
 	"destination": "MLCBenchLegsOnLap",
-	"tags":[
+	"tags": [
 		"transition"
 	],
-	"actors":[
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 5,
@@ -37,6 +37,5 @@
 			"feetOnGround": true
 		}
 	],
-	"actions":[
-    ]
+	"actions": []
 }

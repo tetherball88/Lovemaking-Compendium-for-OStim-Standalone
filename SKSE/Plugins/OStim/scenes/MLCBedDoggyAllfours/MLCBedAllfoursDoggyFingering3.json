@@ -2,7 +2,7 @@
 	"name": "Lovemaking: Bed Allfours Fingering 3",
 	"modpack": "Moon Lovemaking Compendium",
 	"length": 2.0,
-	"speeds":[
+	"speeds": [
 		{
 			"animation": "MLCBedAllfoursDoggyFingering3",
 			"playbackSpeed": 1.2,
@@ -24,7 +24,7 @@
 			"displaySpeed": 4.0
 		}
 	],
-	"navigations":[
+	"navigations": [
 		{
 			"destination": "MLCGoToBedAllfoursDoggyFingering3Rev",
 			"description": "Return",
@@ -32,15 +32,14 @@
 			"priority": -1000
 		}
 	],
-	"tags":[
-	],
-	"actors":[
+	"tags": [],
+	"actors": [
 		{
 			"intendedSex": "male",
 			"sosBend": 1,
 			"scale": 1.03,
 			"lookUp": -80,
-            "lookLeft": -10,			
+			"lookLeft": -10,
 			"tags": [
 				"kneeling"
 			],
@@ -57,7 +56,7 @@
 			"feetOnGround": false
 		}
 	],
-	"actions":[
+	"actions": [
 		{
 			"type": "grindingpenis",
 			"actor": 1,
@@ -73,5 +72,5 @@
 			"actor": 1,
 			"target": 1
 		}
-    ]
+	]
 }
