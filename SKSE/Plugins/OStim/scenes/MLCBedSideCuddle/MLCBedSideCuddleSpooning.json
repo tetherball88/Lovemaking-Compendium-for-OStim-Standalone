@@ -1,87 +1,90 @@
 {
-	"name": "Lovemaking: Bed Side Cuddle Spooning",
-	"modpack": "Lovemaking Compendium",
-	"length": 2.0,
-	"speeds": [
-		{
-			"animation": "MLCBedSideCuddleSpooning",
-			"playbackSpeed": 1.2,
-			"displaySpeed": 1.0
-		},
-		{
-			"animation": "MLCBedSideCuddleSpooning",
-			"playbackSpeed": 1.5,
-			"displaySpeed": 2.0
-		},
-		{
-			"animation": "MLCBedSideCuddleSpooning",
-			"playbackSpeed": 1.8,
-			"displaySpeed": 3.0
-		},
-		{
-			"animation": "MLCBedSideCuddleSpooning",
-			"playbackSpeed": 2.0,
-			"displaySpeed": 4.0
-		}
-	],
-	"navigations": [
-		{
-			"destination": "MLCBedSideCuddleSpooningAlt",
-			"description": "{1} takes over",
-			"icon": "OStim/symbols/switch",
-			"border": "cb0375",
-			"priority": 3000
-		},
-		{
-			"destination": "MLCGoToBedSideCuddleSpooningRev",
-			"description": "Return",
-			"icon": "OStim/symbols/return",
-			"priority": -1000
-		}
-	],
-	"tags": [],
-	"actors": [
-		{
-			"intendedSex": "male",
-			"sosBend": 1,
-			"scale": 1.03,
-			"lookUp": -50,
-			"tags": [
-				"lyingside"
-			],
-			"feetOnGround": false
-		},
-		{
-			"intendedSex": "female",
-			"scale": 1.0,
-			"lookUp": 80,
-			"lookLeft": -20,
-			"tags": [
-				"lyingside"
-			],
-			"feetOnGround": false
-		}
-	],
-	"actions": [
-		{
-			"type": "vaginalsex",
-			"actor": 0,
-			"target": 1
-		},
-		{
-			"type": "gropingbreast",
-			"actor": 0,
-			"target": 1
-		},
-		{
-			"type": "holdingthigh",
-			"actor": 1,
-			"target": 0
-		},
-		{
-			"type": "kissingneck",
-			"actor": 0,
-			"target": 1
-		}
-	]
+    "name": "Lovemaking: Bed Side Cuddle Spooning",
+    "modpack": "Moon Lovemaking Compendium",
+    "length": 2,
+    "speeds": [
+        {
+            "animation": "MLCBedSideCuddleSpooning",
+            "playbackSpeed": 1.2,
+            "displaySpeed": 1
+        },
+        {
+            "animation": "MLCBedSideCuddleSpooning",
+            "playbackSpeed": 1.5,
+            "displaySpeed": 2
+        },
+        {
+            "animation": "MLCBedSideCuddleSpooning",
+            "playbackSpeed": 1.8,
+            "displaySpeed": 3
+        },
+        {
+            "animation": "MLCBedSideCuddleSpooning",
+            "playbackSpeed": 2,
+            "displaySpeed": 4
+        }
+    ],
+    "navigations": [
+        {
+            "destination": "MLCBedSideCuddleSpooningAlt",
+            "description": "{1} takes over",
+            "icon": "OStim/symbols/switch",
+            "border": "cb0375",
+            "priority": 3000
+        },
+        {
+            "destination": "MLCGoToBedSideCuddleSpooningRev",
+            "description": "Return",
+            "icon": "OStim/symbols/return",
+            "priority": -1000
+        }
+    ],
+    "tags": [
+        "spooning"
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+            "sosBend": 1,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false
+        },
+        {
+            "intendedSex": "female",
+            "scale": 1,
+            "lookUp": 80,
+            "lookLeft": -20,
+            "tags": [
+                "lyingside",
+                "facingaway"
+            ],
+            "feetOnGround": false
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "gropingbreast",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "holdingthigh",
+            "actor": 1,
+            "target": 0
+        },
+        {
+            "type": "kissingneck",
+            "actor": 0,
+            "target": 1
+        }
+    ]
 }

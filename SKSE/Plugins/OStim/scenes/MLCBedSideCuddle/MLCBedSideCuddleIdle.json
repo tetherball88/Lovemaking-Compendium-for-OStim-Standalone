@@ -1,84 +1,85 @@
 {
-	"name": "Lovemaking: Bed Side Cuddle Idle",
-	"modpack": "Lovemaking Compendium",
-	"length": 2.0,
-	"speeds": [
-		{
-			"animation": "MLCBedSideCuddleIdle",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 1.0
-		},
-		{
-			"animation": "MLCBedSideCuddleIdle",
-			"playbackSpeed": 1.3,
-			"displaySpeed": 2.0
-		},
-		{
-			"animation": "MLCBedSideCuddleIdle",
-			"playbackSpeed": 1.65,
-			"displaySpeed": 3.0
-		},
-		{
-			"animation": "MLCBedSideCuddleIdle",
-			"playbackSpeed": 2.0,
-			"displaySpeed": 4.0
-		}
-	],
-	"navigations": [
-		{
-			"destination": "MLCGoToBedSideCuddleCaress",
-			"description": "Kiss {1}'s neck and caress each other",
-			"icon": "OStim/sensual/kissingneck_behind_mf",
-			"border": "b969ed",
-			"priority": 3000
-		},
-		{
-			"destination": "MLCGoToBedSideCuddleIdleRev",
-			"description": "Return",
-			"icon": "OStim/symbols/return",
-			"priority": -1000
-		}
-	],
-	"tags": [
-		"idle"
-	],
-	"actors": [
-		{
-			"intendedSex": "male",
-			"sosBend": -10,
-			"scale": 1.03,
-			"lookUp": -50,
-			"tags": [
-				"lyingside"
-			],
-			"feetOnGround": false
-		},
-		{
-			"intendedSex": "female",
-			"scale": 1.0,
-			"lookUp": 60,
-			"lookLeft": 50,
-			"tags": [
-				"lyingside"
-			],
-			"feetOnGround": false
-		}
-	],
-	"actions": [
-		{
-			"type": "holdingbody",
-			"actor": 0,
-			"target": 1
-		},
-		{
-			"type": "holdinghand",
-			"actor": 0,
-			"target": 1
-		},
-		{
-			"type": "cuddling",
-			"actor": 0,
-			"target": 1
-		}
-	]
+    "name": "Lovemaking: Bed Side Cuddle Idle",
+    "modpack": "Moon Lovemaking Compendium",
+    "length": 2,
+    "speeds": [
+        {
+            "animation": "MLCBedSideCuddleIdle",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        },
+        {
+            "animation": "MLCBedSideCuddleIdle",
+            "playbackSpeed": 1.3,
+            "displaySpeed": 2
+        },
+        {
+            "animation": "MLCBedSideCuddleIdle",
+            "playbackSpeed": 1.65,
+            "displaySpeed": 3
+        },
+        {
+            "animation": "MLCBedSideCuddleIdle",
+            "playbackSpeed": 2,
+            "displaySpeed": 4
+        }
+    ],
+    "navigations": [
+        {
+            "destination": "MLCGoToBedSideCuddleCaress",
+            "description": "Kiss {1}'s neck and caress each other",
+            "icon": "OStim/sensual/kissingneck_behind_mf",
+            "border": "b969ed",
+            "priority": 3000
+        },
+        {
+            "destination": "MLCGoToBedSideCuddleIdleRev",
+            "description": "Return",
+            "icon": "OStim/symbols/return",
+            "priority": -1000
+        }
+    ],
+    "tags": [
+        "romantic"
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+            "sosBend": -10,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false
+        },
+        {
+            "intendedSex": "female",
+            "scale": 1,
+            "lookUp": 60,
+            "lookLeft": 50,
+            "tags": [
+                "lyingside",
+                "facingaway"
+            ],
+            "feetOnGround": false
+        }
+    ],
+    "actions": [
+        {
+            "type": "hugging",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "holdinghand",
+            "actor": 0,
+            "target": 1
+        },
+        {
+            "type": "cuddling",
+            "actor": 0,
+            "target": 1
+        }
+    ]
 }

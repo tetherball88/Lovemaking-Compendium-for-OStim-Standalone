@@ -9,7 +9,8 @@
 	],
 	"destination": "MLCBedMissionaryHoldThigh",
 	"tags": [
-		"transition"
+		"transition",
+		"anvil"
 	],
 	"actors": [
 		{

@@ -1,37 +1,37 @@
 {
-	"name": "Lovemaking: Bed Transition to Side Cuddle Caress",
-	"modpack": "Lovemaking Compendium",
-	"length": 1.666,
-	"speeds": [
-		{
-			"animation": "MLCGoToBedSideCuddleCaress"
-		}
-	],
-	"destination": "MLCBedSideCuddleCaress",
-	"tags": [
-		"transition"
-	],
-	"actors": [
-		{
-			"intendedSex": "male",
-			"sosBend": -10,
-			"scale": 1.03,
-			"lookUp": -50,
-			"tags": [
-				"lyingside"
-			],
-			"feetOnGround": false
-		},
-		{
-			"intendedSex": "female",
-			"scale": 1.0,
-			"lookUp": -10,
-			"lookLeft": -60,
-			"tags": [
-				"lyingside"
-			],
-			"feetOnGround": false
-		}
-	],
-	"actions": []
+    "name": "Lovemaking: Bed Transition to Side Cuddle Caress",
+    "modpack": "Moon Lovemaking Compendium",
+    "length": 1.666,
+    "speeds": [
+        {
+            "animation": "MLCGoToBedSideCuddleCaress"
+        }
+    ],
+    "destination": "MLCBedSideCuddleCaress",
+    "tags": [
+        "transition"
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+            "sosBend": -10,
+            "scale": 1.03,
+            "lookUp": -50,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false
+        },
+        {
+            "intendedSex": "female",
+            "scale": 1.0,
+            "lookUp": -10,
+            "lookLeft": -60,
+            "tags": [
+                "lyingside"
+            ],
+            "feetOnGround": false
+        }
+    ],
+    "actions": []
 }

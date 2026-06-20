@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Bed Kneeling Idle",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCBedKneelingIdle"
@@ -44,18 +44,19 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -50,
 			"lookLeft": 60,
 			"tags": [
-				"kneeling"
+				"kneeling",
+				"facingaway"
 			],
 			"feetOnGround": false
 		}
 	],
 	"actions": [
 		{
-			"type": "holdingbody",
+			"type": "hugging",
 			"actor": 0,
 			"target": 1
 		}

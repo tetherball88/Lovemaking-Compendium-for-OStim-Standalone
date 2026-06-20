@@ -1,32 +1,32 @@
 {
 	"name": "Lovemaking: Bed Mating Press",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCMissMatingPress",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 1.0
+			"playbackSpeed": 1,
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCMissMatingPress",
 			"playbackSpeed": 1.2,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCMissMatingPress",
 			"playbackSpeed": 1.4,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCMissMatingPress",
 			"playbackSpeed": 1.6,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		},
 		{
 			"animation": "MLCMissMatingPress",
 			"playbackSpeed": 1.8,
-			"displaySpeed": 5.0
+			"displaySpeed": 5
 		}
 	],
 	"navigations": [
@@ -54,13 +54,13 @@
 			"scale": 1.03,
 			"lookUp": -20,
 			"tags": [
-				"kneeling"
+				"squatting"
 			],
-			"feetOnGround": false
+			"feetOnGround": true
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -20,
 			"tags": [
 				"lyingback"
@@ -73,6 +73,11 @@
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingleg"
 		}
 	]
 }

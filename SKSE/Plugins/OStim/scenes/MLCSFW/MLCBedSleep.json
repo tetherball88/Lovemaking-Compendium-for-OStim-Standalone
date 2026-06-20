@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Bed Sleeping",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCBedSleep"
@@ -23,17 +23,19 @@
 			"scale": 1.03,
 			"lookUp": -50,
 			"tags": [
-				"lyingback"
+				"lyingback",
+				"onbottom"
 			],
 			"feetOnGround": false
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -70,
 			"lookLeft": -50,
 			"tags": [
-				"kneeling"
+				"lyingfront",
+				"ontop"
 			],
 			"feetOnGround": false
 		}
@@ -51,6 +53,16 @@
 			"type": "sleepingsound",
 			"actor": 1,
 			"target": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "cuddling"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "hugging"
 		}
 	]
 }

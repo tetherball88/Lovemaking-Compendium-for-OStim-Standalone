@@ -1,3 +1,6 @@
 # Auto detect text files and perform LF normalization
-* text=auto
-* text eol=clrf
+* text=auto eol=crlf
+# Binary files - no line ending normalization
+*.hkx binary
+*.dds binary
+*.png binary

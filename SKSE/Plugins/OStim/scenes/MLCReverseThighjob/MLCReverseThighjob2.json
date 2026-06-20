@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Reverse Thighjob 2",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCReverseThighjob2",
 			"playbackSpeed": 1.1,
-			"displaySpeed": 1.0
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCReverseThighjob2",
 			"playbackSpeed": 1.3,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCReverseThighjob2",
 			"playbackSpeed": 1.5,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCReverseThighjob2",
 			"playbackSpeed": 1.7,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -54,7 +54,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -50,
 			"lookLeft": -60,
 			"tags": [
@@ -80,6 +80,11 @@
 			"type": "gropingbreast",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "holdinghand"
 		}
 	]
 }

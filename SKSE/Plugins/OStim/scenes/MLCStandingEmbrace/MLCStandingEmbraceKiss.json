@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Standing Embrace Kiss",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCStandingEmbraceKiss"
@@ -23,7 +23,8 @@
 		}
 	],
 	"tags": [
-		"kissing"
+		"kissing",
+		"romantic"
 	],
 	"actors": [
 		{
@@ -37,7 +38,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"tags": [
 				"standing"
 			],
@@ -59,6 +60,16 @@
 			"type": "holdinghead",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "gropingbutt"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "hugging"
 		}
 	]
 }

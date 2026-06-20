@@ -1,78 +1,79 @@
 {
-	"name": "Lovemaking: Bench Reverse Cowgirl",
-	"modpack": "Lovemaking Compendium",
-	"length": 2.0,
-	"furniture": "bench",
-	"speeds": [
-		{
-			"animation": "MLCBenchLapSittingRevCowgirl",
-			"playbackSpeed": 1.00,
-			"displaySpeed": 1.0
-		},
-		{
-			"animation": "MLCBenchLapSittingRevCowgirl",
-			"playbackSpeed": 1.15,
-			"displaySpeed": 2.0
-		},
-		{
-			"animation": "MLCBenchLapSittingRevCowgirl",
-			"playbackSpeed": 1.3,
-			"displaySpeed": 3.0
-		},
-		{
-			"animation": "MLCBenchLapSittingRevCowgirl",
-			"playbackSpeed": 1.5,
-			"displaySpeed": 4.0
-		}
-	],
-	"navigations": [
-		{
-			"destination": "MLCBenchGoToLapSittingRevCowgirl2",
-			"description": "Lean back and grind",
-			"icon": "OStim/detail/gropingbreast_behind_mf",
-			"border": "b969ed",
-			"priority": 3000
-		},
-		{
-			"destination": "MLCBenchGoToLapSittingRevCowgirlRev",
-			"description": "Return",
-			"icon": "OStim/symbols/return",
-			"priority": -1000
-		}
-	],
-	"tags": [
-		"cowgirl"
-	],
-	"actors": [
-		{
-			"intendedSex": "male",
-			"sosBend": 9,
-			"scale": 1.03,
-			"tags": [
-				"sitting"
-			],
-			"feetOnGround": false
-		},
-		{
-			"intendedSex": "female",
-			"scale": 1.0,
-			"tags": [
-				"sitting"
-			],
-			"feetOnGround": false
-		}
-	],
-	"actions": [
-		{
-			"type": "vaginalsex",
-			"actor": 0,
-			"target": 1,
-			"performer": 1
-		},
-		{
-			"type": "holdingbody",
-			"actor": 0,
-			"target": 1
-		}
-	]
+    "name": "Lovemaking: Bench Reverse Cowgirl",
+    "modpack": "Moon Lovemaking Compendium",
+    "length": 2,
+    "furniture": "bench",
+    "speeds": [
+        {
+            "animation": "MLCBenchLapSittingRevCowgirl",
+            "playbackSpeed": 1,
+            "displaySpeed": 1
+        },
+        {
+            "animation": "MLCBenchLapSittingRevCowgirl",
+            "playbackSpeed": 1.15,
+            "displaySpeed": 2
+        },
+        {
+            "animation": "MLCBenchLapSittingRevCowgirl",
+            "playbackSpeed": 1.3,
+            "displaySpeed": 3
+        },
+        {
+            "animation": "MLCBenchLapSittingRevCowgirl",
+            "playbackSpeed": 1.5,
+            "displaySpeed": 4
+        }
+    ],
+    "navigations": [
+        {
+            "destination": "MLCBenchGoToLapSittingRevCowgirl2",
+            "description": "Lean back and grind",
+            "icon": "OStim/detail/gropingbreast_behind_mf",
+            "border": "b969ed",
+            "priority": 3000
+        },
+        {
+            "destination": "MLCBenchGoToLapSittingRevCowgirlRev",
+            "description": "Return",
+            "icon": "OStim/symbols/return",
+            "priority": -1000
+        }
+    ],
+    "tags": [
+        "reversecowgirl"
+    ],
+    "actors": [
+        {
+            "intendedSex": "male",
+            "sosBend": 9,
+            "scale": 1.03,
+            "tags": [
+                "sitting"
+            ],
+            "feetOnGround": false
+        },
+        {
+            "intendedSex": "female",
+            "scale": 1,
+            "tags": [
+                "sitting",
+                "facingaway"
+            ],
+            "feetOnGround": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "vaginalsex",
+            "actor": 0,
+            "target": 1,
+            "performer": 1
+        },
+        {
+            "type": "holdingbody",
+            "actor": 0,
+            "target": 1
+        }
+    ]
 }

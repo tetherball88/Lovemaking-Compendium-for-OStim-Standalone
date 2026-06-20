@@ -1,28 +1,28 @@
 {
 	"name": "Lovemaking: Table Lying Sideways Handjob + Fingering + Kissing",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"furniture": "table",
 	"speeds": [
 		{
 			"animation": "MLCTableOnTableHJ3",
 			"playbackSpeed": 1.1,
-			"displaySpeed": 1.0
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCTableOnTableHJ3",
 			"playbackSpeed": 1.4,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCTableOnTableHJ3",
 			"playbackSpeed": 1.6,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCTableOnTableHJ3",
 			"playbackSpeed": 1.8,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -33,7 +33,9 @@
 			"priority": -1000
 		}
 	],
-	"tags": [],
+	"tags": [
+		"romantic"
+	],
 	"actors": [
 		{
 			"intendedSex": "male",
@@ -48,11 +50,11 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookLeft": 0,
 			"lookUp": -10,
 			"tags": [
-				"sitting"
+				"lyingside"
 			],
 			"feetOnGround": false
 		}
@@ -72,6 +74,11 @@
 			"type": "vaginalfingering",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdinghead"
 		}
 	]
 }

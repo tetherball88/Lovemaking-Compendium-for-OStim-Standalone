@@ -1,28 +1,28 @@
 {
 	"name": "Lovemaking: Table Facing Away Doggystyle Grind",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"furniture": "table",
 	"speeds": [
 		{
 			"animation": "MLCTableFReverseDoggyGrind",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 1.0
+			"playbackSpeed": 1,
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCTableFReverseDoggyGrind",
 			"playbackSpeed": 1.2,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCTableFReverseDoggyGrind",
 			"playbackSpeed": 1.4,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCTableFReverseDoggyGrind",
 			"playbackSpeed": 1.6,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -40,9 +40,7 @@
 			"priority": 3000
 		}
 	],
-	"tags": [
-		"idle"
-	],
+	"tags": [],
 	"actors": [
 		{
 			"intendedSex": "male",
@@ -57,13 +55,15 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -25,
 			"lookLeft": -50,
 			"tags": [
-				"sitting"
+				"standing",
+				"facingaway",
+				"bendover"
 			],
-			"feetOnGround": false
+			"feetOnGround": true
 		}
 	],
 	"actions": [
@@ -72,6 +72,11 @@
 			"actor": 1,
 			"target": 0,
 			"performer": 0
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingbody"
 		}
 	]
 }

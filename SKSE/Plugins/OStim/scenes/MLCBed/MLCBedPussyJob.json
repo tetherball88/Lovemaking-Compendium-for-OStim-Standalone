@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Bed Penis Grinding",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCBedPussyJob",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 1.0
+			"playbackSpeed": 1,
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCBedPussyJob",
 			"playbackSpeed": 1.3,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCBedPussyJob",
 			"playbackSpeed": 1.65,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCBedPussyJob",
-			"playbackSpeed": 2.0,
-			"displaySpeed": 4.0
+			"playbackSpeed": 2,
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -60,12 +60,12 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -50,
 			"tags": [
 				"kneeling"
 			],
-			"feetOnGround": false
+			"feetOnGround": true
 		}
 	],
 	"actions": [
@@ -88,6 +88,11 @@
 			"type": "cumonbutt",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "mounting"
 		}
 	]
 }

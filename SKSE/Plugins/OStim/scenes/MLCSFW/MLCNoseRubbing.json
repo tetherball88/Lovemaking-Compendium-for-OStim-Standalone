@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Cuddling with Nose Rubbing",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCNoseRubbing"
@@ -16,7 +16,7 @@
 		}
 	],
 	"tags": [
-		"idle"
+		"romantic"
 	],
 	"actors": [
 		{
@@ -31,7 +31,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": 20,
 			"tags": [
 				"standing"
@@ -41,9 +41,19 @@
 	],
 	"actions": [
 		{
-			"type": "holdingbody",
 			"actor": 0,
-			"target": 1
+			"target": 1,
+			"type": "hugging"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "hugging"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "cuddling"
 		}
 	]
 }

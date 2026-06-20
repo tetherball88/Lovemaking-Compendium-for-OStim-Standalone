@@ -1,28 +1,28 @@
 {
 	"name": "Lovemaking: Wall Facing Vaginal",
-	"modpack": "Lovemaking Compendium",
-	"length": 2.0,
+	"modpack": "Moon Lovemaking Compendium",
+	"length": 2,
 	"furniture": "wall",
 	"speeds": [
 		{
 			"animation": "MLCWallFacingVaginal",
-			"playbackSpeed": 1.00,
-			"displaySpeed": 1.0
+			"playbackSpeed": 1,
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCWallFacingVaginal",
 			"playbackSpeed": 1.2,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCWallFacingVaginal",
 			"playbackSpeed": 1.4,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCWallFacingVaginal",
 			"playbackSpeed": 1.6,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -62,6 +62,16 @@
 			"actor": 0,
 			"target": 1,
 			"performer": 1
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingthigh"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "holdingbody"
 		}
 	]
 }

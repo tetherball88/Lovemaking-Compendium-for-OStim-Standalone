@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Kneeling Spank Idle",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCKneelingSpankIdle"
@@ -29,9 +29,7 @@
 			"priority": -1000
 		}
 	],
-	"tags": [
-		"idle"
-	],
+	"tags": [],
 	"actors": [
 		{
 			"intendedSex": "male",
@@ -41,17 +39,30 @@
 			"tags": [
 				"kneeling"
 			],
-			"feetOnGround": false
+			"feetOnGround": true
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -40,
 			"lookLeft": -90,
 			"tags": [
-				"kneeling"
+				"kneeling",
+				"bendover"
 			],
 			"feetOnGround": false
+		}
+	],
+	"actions": [
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "gropingbutt"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "holdingthigh"
 		}
 	]
 }

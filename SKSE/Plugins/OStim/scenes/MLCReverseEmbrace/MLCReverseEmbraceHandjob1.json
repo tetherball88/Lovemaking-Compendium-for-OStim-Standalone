@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Reverse Embrace Handjob",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceHandjob1",
 			"playbackSpeed": 0.85,
-			"displaySpeed": 1.0
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCReverseEmbraceHandjob1",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 2.0
+			"playbackSpeed": 1,
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCReverseEmbraceHandjob1",
 			"playbackSpeed": 1.15,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCReverseEmbraceHandjob1",
 			"playbackSpeed": 1.25,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -56,12 +56,11 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -50,
 			"lookLeft": -60,
 			"tags": [
-				"standing",
-				"bendover"
+				"standing"
 			],
 			"feetOnGround": true
 		}
@@ -71,6 +70,11 @@
 			"type": "handjob",
 			"actor": 1,
 			"target": 0
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "hugging"
 		}
 	]
 }

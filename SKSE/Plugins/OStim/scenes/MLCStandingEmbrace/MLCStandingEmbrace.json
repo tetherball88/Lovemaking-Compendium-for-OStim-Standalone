@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Standing Embrace",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCStandingEmbrace"
@@ -65,7 +65,7 @@
 		}
 	],
 	"tags": [
-		"idle"
+		"romantic"
 	],
 	"actors": [
 		{
@@ -80,7 +80,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": 20,
 			"tags": [
 				"standing"
@@ -90,9 +90,19 @@
 	],
 	"actions": [
 		{
-			"type": "holdinghead",
+			"type": "holdingchin",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "hugging"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "hugging"
 		}
 	]
 }

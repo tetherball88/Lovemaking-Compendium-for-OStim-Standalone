@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Mating Press Anal 4",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCMatingPressAnal4",
 			"playbackSpeed": 0.75,
-			"displaySpeed": 1.0
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCMatingPressAnal4",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 2.0
+			"playbackSpeed": 1,
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCMatingPressAnal4",
 			"playbackSpeed": 1.25,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCMatingPressAnal4",
-			"playbackSpeed": 1.50,
-			"displaySpeed": 4.0
+			"playbackSpeed": 1.5,
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -55,7 +55,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -90,
 			"tags": [
 				"lyingback"
@@ -68,6 +68,11 @@
 			"type": "analsex",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "leglocking"
 		}
 	]
 }

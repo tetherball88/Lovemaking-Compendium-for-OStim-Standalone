@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Squatting",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCSquatting"
@@ -52,7 +52,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": 70,
 			"lookLeft": 20,
 			"tags": [
@@ -63,9 +63,9 @@
 	],
 	"actions": [
 		{
-			"type": "holdinghead",
-			"actor": 0,
-			"target": 1
+			"actor": 1,
+			"target": 0,
+			"type": "holdingthigh"
 		}
 	]
 }

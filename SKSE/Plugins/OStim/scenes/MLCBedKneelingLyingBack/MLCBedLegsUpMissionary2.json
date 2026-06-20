@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Bed Legs Up Missionary",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCBedLegsUpMissionary2",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 1.0
+			"playbackSpeed": 1,
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCBedLegsUpMissionary2",
 			"playbackSpeed": 1.2,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCBedLegsUpMissionary2",
 			"playbackSpeed": 1.4,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCBedLegsUpMissionary2",
 			"playbackSpeed": 1.6,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -62,7 +62,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -20,
 			"tags": [
 				"lyingback"
@@ -75,6 +75,16 @@
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdinghip"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "holdingarm"
 		}
 	]
 }

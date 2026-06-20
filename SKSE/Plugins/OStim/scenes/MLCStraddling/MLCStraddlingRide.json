@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Straddling Cowgirl",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCStraddlingRide",
 			"playbackSpeed": 0.75,
-			"displaySpeed": 1.0
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCStraddlingRide",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 2.0
+			"playbackSpeed": 1,
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCStraddlingRide",
 			"playbackSpeed": 1.25,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCStraddlingRide",
-			"playbackSpeed": 1.50,
-			"displaySpeed": 4.0
+			"playbackSpeed": 1.5,
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -47,7 +47,9 @@
 		}
 	],
 	"tags": [
-		"sex"
+		"sex",
+		"romantic",
+		"carry"
 	],
 	"actors": [
 		{
@@ -61,7 +63,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"tags": [
 				"suspended"
 			],
@@ -74,6 +76,21 @@
 			"actor": 0,
 			"target": 1,
 			"performer": 1
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "hugging"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "leglocking"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingbody"
 		}
 	]
 }

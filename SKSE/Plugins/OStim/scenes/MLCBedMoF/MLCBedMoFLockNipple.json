@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Bed Leg-lock Nipple Sucking",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCBedMoFLockNipple"
@@ -33,19 +33,19 @@
 			"lookUp": -50,
 			"lookLeft": 15,
 			"tags": [
-				"lying"
+				"lyingside"
 			],
 			"feetOnGround": false
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -70,
 			"lookLeft": 70,
 			"tags": [
-				"lying"
+				"lyingback"
 			],
-			"feetOnGround": false
+			"feetOnGround": true
 		}
 	],
 	"actions": [

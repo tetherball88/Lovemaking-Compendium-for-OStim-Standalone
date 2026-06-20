@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Bed Nipple Licking with Handjob",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCBedFoMNippleLickingHandjob"
@@ -25,16 +25,18 @@
 			"scale": 1.03,
 			"lookUp": -20,
 			"tags": [
-				"lying"
+				"lyingback",
+				"onbottom"
 			],
 			"feetOnGround": false
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -15,
 			"tags": [
-				"lying"
+				"lyingfront",
+				"ontop"
 			],
 			"feetOnGround": false
 		}

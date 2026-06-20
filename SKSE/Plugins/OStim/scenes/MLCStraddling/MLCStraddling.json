@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Straddling",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCStraddling"
@@ -30,7 +30,7 @@
 		}
 	],
 	"tags": [
-		"idle"
+		"romantic"
 	],
 	"actors": [
 		{
@@ -44,11 +44,28 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"tags": [
 				"suspended"
 			],
 			"feetOnGround": false
+		}
+	],
+	"actions": [
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "hugging"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "leglocking"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdinghip"
 		}
 	]
 }

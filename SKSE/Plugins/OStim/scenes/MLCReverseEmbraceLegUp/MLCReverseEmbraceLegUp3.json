@@ -1,27 +1,27 @@
 {
 	"name": "Lovemaking: Reverse Embrace Leg Up 3",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"speeds": [
 		{
 			"animation": "MLCReverseEmbraceLegUp3",
 			"playbackSpeed": 0.85,
-			"displaySpeed": 1.0
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCReverseEmbraceLegUp3",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 2.0
+			"playbackSpeed": 1,
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCReverseEmbraceLegUp3",
 			"playbackSpeed": 1.15,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCReverseEmbraceLegUp3",
 			"playbackSpeed": 1.25,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -32,7 +32,9 @@
 			"priority": -1000
 		}
 	],
-	"tags": [],
+	"tags": [
+		"bodyguard"
+	],
 	"actors": [
 		{
 			"intendedSex": "male",
@@ -46,7 +48,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookUp": -40,
 			"lookLeft": -50,
 			"tags": [
@@ -61,8 +63,27 @@
 			"type": "vaginalsex",
 			"actor": 0,
 			"target": 1,
-			"performer": 1,
 			"peaksAnnotated": true
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingthigh"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdinghip"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "pullinghair"
+		},
+		{
+			"actor": 1,
+			"target": 0,
+			"type": "holdingarm"
 		}
 	]
 }

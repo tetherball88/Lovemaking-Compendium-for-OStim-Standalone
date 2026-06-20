@@ -1,28 +1,28 @@
 {
 	"name": "Lovemaking: Table Sitting Penis Grinding",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"furniture": "table",
 	"speeds": [
 		{
 			"animation": "MLCTableFSittingGrind",
-			"playbackSpeed": 1.0,
-			"displaySpeed": 1.0
+			"playbackSpeed": 1,
+			"displaySpeed": 1
 		},
 		{
 			"animation": "MLCTableFSittingGrind",
 			"playbackSpeed": 1.2,
-			"displaySpeed": 2.0
+			"displaySpeed": 2
 		},
 		{
 			"animation": "MLCTableFSittingGrind",
 			"playbackSpeed": 1.4,
-			"displaySpeed": 3.0
+			"displaySpeed": 3
 		},
 		{
 			"animation": "MLCTableFSittingGrind",
 			"playbackSpeed": 1.6,
-			"displaySpeed": 4.0
+			"displaySpeed": 4
 		}
 	],
 	"navigations": [
@@ -55,7 +55,7 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"tags": [
 				"sitting"
 			],
@@ -78,6 +78,16 @@
 			"type": "cumonvulva",
 			"actor": 0,
 			"target": 1
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingthigh"
+		},
+		{
+			"actor": 0,
+			"target": 1,
+			"type": "holdingleg"
 		}
 	]
 }

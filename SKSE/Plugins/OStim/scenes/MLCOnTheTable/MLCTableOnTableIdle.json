@@ -1,7 +1,7 @@
 {
 	"name": "Lovemaking: Table Lying Sideways Idle",
 	"modpack": "Moon Lovemaking Compendium",
-	"length": 2.0,
+	"length": 2,
 	"furniture": "table",
 	"speeds": [
 		{
@@ -40,11 +40,11 @@
 		},
 		{
 			"intendedSex": "female",
-			"scale": 1.0,
+			"scale": 1,
 			"lookLeft": 70,
 			"lookUp": 10,
 			"tags": [
-				"sitting"
+				"lyingside"
 			],
 			"feetOnGround": false
 		}
